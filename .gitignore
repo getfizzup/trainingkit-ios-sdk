@@ -1,0 +1,73 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserdatad/
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
+
+**/fastlane/Appfile
+**/fastlane/report.xml
+**/fastlane/screenshots*
+**/fastlane/test_output
+**/fastlane/Preview.html
+**/*.dSYM.zip
+
+# misc
+revision.h
+
+.DS_Store
+
+tmp
+*.mobileprovision
+Thumbs.db
+*.dSYM.zip
+
+# Local bundle configuration+source files
+.bundle
+vendor/bundle
+vendor/cache
+
+.env
+fastlane/key.p8
+
+*/tests.xml
+*/.build
+
+*/.swiftpm/config/registries.json
+*/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+fastlane/Authfile
+fastlane/README.md
+*.xcresult
+
+demo/apollo-ios-cli
+demo/DemoCloud
+demo/SampleApp/schema.graphqls
