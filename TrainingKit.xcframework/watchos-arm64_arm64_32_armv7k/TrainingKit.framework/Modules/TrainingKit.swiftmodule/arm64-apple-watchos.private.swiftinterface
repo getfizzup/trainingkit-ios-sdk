@@ -1,0 +1,169 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-watchos8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TrainingKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import AVFoundation
+import ClockKit
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import HealthKit
+import OSLog
+import Swift
+import SwiftUI
+import UIKit
+import WatchConnectivity
+import WatchKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public struct BoughtContent {
+  public init(data: Foundation.Data, unlockOtherContents: Swift.Bool)
+  public static var empty: TrainingKit.BoughtContent {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+public class SessionDelegater : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension TrainingKit.SessionDelegater : WatchConnectivity.WCSessionDelegate {
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, activationDidCompleteWith state: WatchConnectivity.WCSessionActivationState, error: (any Swift.Error)?)
+  @objc dynamic public func sessionReachabilityDidChange(_: WatchConnectivity.WCSession)
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveApplicationContext applicationContext: [Swift.String : Any])
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveMessage message: [Swift.String : Any])
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, didReceiveMessage message: [Swift.String : Any], replyHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveMessageData _: Foundation.Data)
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, didReceiveMessageData messageData: Foundation.Data, replyHandler: @escaping (Foundation.Data) -> Swift.Void)
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveUserInfo userInfo: [Swift.String : Any] = [:])
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didFinish userInfoTransfer: WatchConnectivity.WCSessionUserInfoTransfer, error: (any Swift.Error)?)
+}
+@available(iOS 15.0, watchOS 8.0, *)
+extension Swift.Int {
+  public func formattedDuration(_ allowedUnits: Foundation.NSCalendar.Unit = [.hour, .minute]) -> Swift.String
+}
+extension Foundation.NSNotification.Name {
+  public static let startBuyingContent: Foundation.NSNotification.Name
+  public static let cancelBuyingContent: Foundation.NSNotification.Name
+  public static let userStatusChanged: Foundation.NSNotification.Name
+}
+@available(iOS 15.0, watchOS 8.0, *)
+extension Swift.Double {
+  public func formattedDuration(_ allowedUnits: Foundation.NSCalendar.Unit = [.hour, .minute]) -> Swift.String
+  public func formattedDuration(_ allowedUnits: Foundation.NSCalendar.Unit = [.hour, .minute], attributes: [Foundation.NSAttributedString.Key : Any]? = nil, unitAttributes: [Foundation.NSAttributedString.Key : Any]? = nil) -> Foundation.NSAttributedString
+}
+@available(iOS 15.0, watchOS 8.0, *)
+public enum ExerciseType : Swift.Equatable, Swift.RawRepresentable {
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+  case calibration(_: TrainingKit.CalibrationType)
+  case duration
+  case repetition
+}
+extension TrainingKit.ExerciseType : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, watchOS 8.0, *)
+@frozen public enum CalibrationType : Swift.String, Swift.Codable {
+  case start
+  case end
+  public init?(rawValue: Swift.String)
+  @available(iOS 15.0, watchOS 8.0, *)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@available(iOS 15.0, watchOS 8.0, *)
+public struct ChronoState {
+  public var value: Swift.Double
+  public var referenceDate: Swift.Double
+  public static func stopwatch(value: Foundation.TimeInterval = 0, referenceDate: Foundation.TimeInterval = 0) -> TrainingKit.ChronoState
+}
+@_documentation(visibility: internal) extension TrainingKit.ChronoState : Swift.Equatable {
+  public static func == (a: TrainingKit.ChronoState, b: TrainingKit.ChronoState) -> Swift.Bool
+}
+@_documentation(visibility: internal) extension TrainingKit.ChronoState : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, watchOS 8.0, *)
+public enum WorkoutStateMode : Swift.Int, Swift.Codable {
+  case launcher
+  case start
+  case ongoing
+  case paused
+  case finished
+  case stopped
+  case notStarted
+  public init?(rawValue: Swift.Int)
+  @available(iOS 15.0, watchOS 8.0, *)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum WatchAction {
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(watchOS 8.0, *)
+public class SessionGateway : ObjectiveC.NSObject, Combine.ObservableObject {
+  public var workoutSession: HealthKit.HKWorkoutSession? {
+    get
+    set
+  }
+  public static let shared: TrainingKit.SessionGateway
+  public func requestHeartRate()
+  public func startHKWorkout(with configuration: HealthKit.HKWorkoutConfiguration)
+  public func restoreHKWorkoutSession()
+  @available(watchOS 8.0, *)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension TrainingKit.SessionGateway {
+  public func newState(state: Any)
+}
+extension TrainingKit.SessionGateway : HealthKit.HKWorkoutSessionDelegate {
+  @objc dynamic public func workoutSession(_: HealthKit.HKWorkoutSession, didChangeTo toState: HealthKit.HKWorkoutSessionState, from fromState: HealthKit.HKWorkoutSessionState, date _: Foundation.Date)
+  @objc dynamic public func workoutSession(_ workoutSession: HealthKit.HKWorkoutSession, didFailWithError error: any Swift.Error)
+}
+public struct HeartRate {
+  public var value: Swift.Double?
+}
+public func localizedString(_ str: Swift.String, comment: Swift.String = "") -> Swift.String
+
+
+
+@_Concurrency.MainActor @preconcurrency public struct PagingView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init()
+  public typealias Body = @_opaqueReturnTypeOf("$s11TrainingKit10PagingViewV4bodyQrvp", 0) __
+}
+
+
+
+
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.Equatable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.Hashable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.RawRepresentable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.Sendable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.BitwiseCopyable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.WorkoutStateMode : Swift.Equatable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.WorkoutStateMode : Swift.Hashable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.WorkoutStateMode : Swift.RawRepresentable {}
+extension TrainingKit.PagingView : Swift.Sendable {}

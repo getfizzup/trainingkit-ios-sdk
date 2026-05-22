@@ -1,0 +1,606 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TrainingKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import AVFAudio
+import AVFoundation
+import AVKit
+import Combine
+import CommonCrypto
+import CoreHaptics
+import CoreMedia
+import DeveloperToolsSupport
+import Foundation
+import MediaPlayer
+import OSLog
+import Swift
+import SwiftUI
+import UIKit
+import WatchConnectivity
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+open class RemoteManager : ObjectiveC.NSObject {
+  open func startMedia(at time: CoreMedia.CMTime = .zero, with mode: TrainingKit.WorkoutStateMode)
+  open func playMedia()
+  open func pauseMedia(promptTitle title: Swift.String? = nil, promptCaption caption: Swift.String? = nil)
+  open func seekMedia(to time: CoreMedia.CMTime)
+  open func replaceMedia()
+  open func sendFinishedMessage()
+  open func disconnect()
+  open var currentTime: CoreMedia.CMTime {
+    get
+  }
+  open var playerState: TrainingKit.RemoteMediaPlayerState {
+    get
+  }
+  weak open var delegate: (any TrainingKit.RemoteManagerDelegate)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+public protocol RemoteManagerDelegate : AnyObject {
+  func remoteSessionDidStart()
+  func remoteSessionDidEnd(at time: CoreMedia.CMTime)
+  func remoteSessionDidResume()
+  func remoteSessionCanStartMedia()
+  func remoteSessionCanResumeMedia(at time: CoreMedia.CMTime)
+  func remoteSessionOtherMediaPlaying()
+  func remoteSessionDidUpdateMediaStatus(time: CoreMedia.CMTime, hasMedia: Swift.Bool, state: TrainingKit.RemoteMediaPlayerState?)
+  func remoteSessionDidUpdateMetadata(coverUrl: Foundation.URL?)
+  func remoteDidTapQuitWorkout()
+}
+@available(iOS 15.0, *)
+@objc public enum RemoteMediaPlayerState : Swift.Int, Swift.CustomStringConvertible {
+  case unknown = 0
+  case idle = 1
+  case playing = 2
+  case paused = 3
+  case buffering = 4
+  case loading = 5
+  @_documentation(visibility: internal) public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  @available(iOS 15.0, *)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+public class HostSessionDelegater : TrainingKit.SessionDelegater {
+  @_documentation(visibility: internal) @objc override dynamic public func session(_: WatchConnectivity.WCSession, didReceiveMessage message: [Swift.String : Any], replyHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+public class SessionGateway : ObjectiveC.NSObject {
+  @objc public static let shared: TrainingKit.SessionGateway
+  @objc deinit
+}
+extension TrainingKit.GoModeController : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_: UIKit.UICollectionView, numberOfItemsInSection _: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension TrainingKit.GoModeController : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt _: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_: UIKit.UICollectionView, didEndDisplaying cell: UIKit.UICollectionViewCell, forItemAt _: Foundation.IndexPath)
+}
+extension TrainingKit.GoVideoController : AVKit.AVPictureInPictureControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pictureInPictureControllerWillStopPictureInPicture(_: AVKit.AVPictureInPictureController)
+}
+extension TrainingKit.GoVideoController : TrainingKit.RemoteManagerDelegate {
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionDidStart()
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionDidEnd(at time: CoreMedia.CMTime)
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionDidUpdateMetadata(coverUrl: Foundation.URL?)
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionDidUpdateMediaStatus(time: CoreMedia.CMTime, hasMedia: Swift.Bool, state: TrainingKit.RemoteMediaPlayerState?)
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionDidResume()
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionCanStartMedia()
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionCanResumeMedia(at _: CoreMedia.CMTime)
+  @_Concurrency.MainActor @preconcurrency public func remoteSessionOtherMediaPlaying()
+  @_Concurrency.MainActor @preconcurrency public func remoteDidTapQuitWorkout()
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@_Concurrency.MainActor @preconcurrency final public class AudioSettingsController : UIKit.UIViewController {
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+@_Concurrency.MainActor @preconcurrency open class ExerciseController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public init(identifier: Swift.String, name: Swift.String, cover: Foundation.URL? = nil, video: Foundation.URL, videoBackgroundColor: Swift.Int = 0xFFFFFF, videoPrimaryColor: Swift.Int = 0x000000, executionSteps: [Swift.String] = [], revised: Swift.Bool = false, favorite: Swift.Bool = false, revisionHandler: ((Swift.String) -> Swift.Void)? = nil, favoriteHandler: ((Swift.String, Swift.Bool, @escaping (Swift.Bool) -> Swift.Void) -> Swift.Void)? = nil)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @objc deinit
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLayoutSubviews()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with _: any UIKit.UIViewControllerTransitionCoordinator)
+}
+extension TrainingKit.ExerciseController : UIKit.UIScrollViewDelegate {
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewWillBeginDragging(_: UIKit.UIScrollView)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+}
+@objc @available(iOS 15.0, *)
+@_Concurrency.MainActor @preconcurrency open class ExerciseVideoController : UIKit.UIViewController {
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersHomeIndicatorAutoHidden: Swift.Bool {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(identifier: Swift.String, name: Swift.String, cover: Foundation.URL? = nil, video: Foundation.URL, videoBackgroundColor: Swift.Int = 0xFFFFFF, videoPrimaryColor: Swift.Int = 0x000000, revised: Swift.Bool = false, favorite: Swift.Bool = false, revisionHandler: ((Swift.String) -> Swift.Void)? = nil, favoriteHandler: ((Swift.String, Swift.Bool, @escaping (Swift.Bool) -> Swift.Void) -> Swift.Void)? = nil)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLayoutSubviews()
+  @objc deinit
+}
+@objc @available(iOS 15.0, *)
+@_Concurrency.MainActor @preconcurrency open class GoModeController : UIKit.UIViewController {
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(data: Foundation.Data, token: Swift.String, configuration configData: [Swift.String : Any] = [:]) async throws
+  @objc deinit
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency open func shouldDisplayCloseButton() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open func saveSession(state: TrainingKit.SaveWorkoutState)
+  @_Concurrency.MainActor @preconcurrency open func quitWorkout()
+  @_Concurrency.MainActor @preconcurrency open func displayPostWorkout() -> Combine.AnyPublisher<Swift.Void, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func getAllRecommendations(contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<Foundation.Data, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func buyPremiumContent(from _: UIKit.UIViewController?, placement _: Swift.String?, contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func buyPremiumRecommendation(from _: UIKit.UIViewController?, placement _: Swift.String?, contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func log(_ message: Swift.String, context: [Swift.String : Swift.AnyHashable]? = nil)
+  @_Concurrency.MainActor @preconcurrency open func trackEvent(_ name: TrainingKit.Tracking.Event, properties: [TrainingKit.Tracking.Property : Swift.String]? = nil)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder _: Foundation.NSCoder)
+}
+@objc @available(iOS 15.0, *)
+@_Concurrency.MainActor @preconcurrency open class GoVideoController : UIKit.UIViewController, TrainingKit.TrainingKitInterface, TrainingKit.TrainingKitLogInterface {
+  @_Concurrency.MainActor @preconcurrency public var video: TrainingKit.Video {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var metadata: TrainingKit.VideoMetadata {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var remoteManager: TrainingKit.RemoteManager {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var leftItems: [UIKit.UIBarButtonItem] {
+    get
+    set
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersHomeIndicatorAutoHidden: Swift.Bool {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(data: Foundation.Data, localStream: Foundation.URL? = nil, token: Swift.String, configuration configData: [Swift.String : Any] = [:]) async throws
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLayoutSubviews()
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency open func saveSession(state: TrainingKit.SaveWorkoutState)
+  @objc @_Concurrency.MainActor @preconcurrency open func quitWorkout()
+  @_Concurrency.MainActor @preconcurrency open func displayPostWorkout() -> Combine.AnyPublisher<Swift.Void, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func trackEvent(_ name: TrainingKit.Tracking.Event, properties: [TrainingKit.Tracking.Property : Swift.String]? = nil)
+  @_Concurrency.MainActor @preconcurrency open func log(_ message: Swift.String, context: [Swift.String : Swift.AnyHashable]? = nil)
+}
+extension TrainingKit.GoVideoController : UIKit.UIToolbarDelegate {
+}
+extension Foundation.Data {
+  public var streamingVideo: TrainingKit.Video? {
+    get
+  }
+  public var streamingMetadata: TrainingKit.VideoMetadata? {
+    get
+  }
+}
+extension Foundation.NSNotification.Name {
+  public static let downloadProgressChanged: Foundation.NSNotification.Name
+  public static let downloadFinished: Foundation.NSNotification.Name
+}
+public struct BoughtContent {
+  public init(data: Foundation.Data, unlockOtherContents: Swift.Bool)
+  public static var empty: TrainingKit.BoughtContent {
+    get
+  }
+}
+@available(iOS 15.0, *)
+public struct Video {
+  public let url: Foundation.URL
+}
+extension TrainingKit.Video : Swift.Codable, Swift.Equatable {
+  public static func == (a: TrainingKit.Video, b: TrainingKit.Video) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, *)
+public struct VideoMetadata {
+  public let title: Swift.String?
+  public let subtitle: Swift.String?
+  public var cover: Foundation.URL?
+  public var coverSize: CoreFoundation.CGSize
+  public let timeRange: CoreMedia.CMTimeRange
+  public func relativeProgress(from currentTime: Foundation.TimeInterval?) -> Swift.Double
+  public func relativeProgress(from currentTime: CoreMedia.CMTime?) -> Swift.Double
+}
+extension TrainingKit.VideoMetadata : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, *)
+public struct ExerciseEvaluation {
+  public let identifier: Swift.String
+  public let repetitions: Swift.Int
+  public let duration: Foundation.TimeInterval
+  public let choice: Swift.Int?
+}
+extension TrainingKit.ExerciseEvaluation : Swift.Codable, Swift.Equatable {
+  public static func == (a: TrainingKit.ExerciseEvaluation, b: TrainingKit.ExerciseEvaluation) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, *)
+public struct BlockExercise {
+  public let identifier: Swift.String
+  public let effortType: TrainingKit.ExerciseType
+  public let value: Swift.Int
+}
+@_documentation(visibility: internal) extension TrainingKit.BlockExercise : Swift.Equatable {
+  public static func == (a: TrainingKit.BlockExercise, b: TrainingKit.BlockExercise) -> Swift.Bool
+}
+@_documentation(visibility: internal) extension TrainingKit.BlockExercise : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, *)
+public struct SaveWorkoutState {
+  public var duration: Swift.Double
+  public var startDate: Swift.Double
+  public var healthEvaluation: Swift.Int
+  public var equipmentWeights: [Swift.String : [Foundation.Measurement<Foundation.UnitMass>]]
+  public var exerciseEvaluations: [TrainingKit.ExerciseEvaluation]
+  public var blocks: [Swift.String : TrainingKit.ChronoState]
+  public var exercises: [Swift.String : [TrainingKit.BlockExercise]]
+  public var calories: [Swift.String : Swift.Double]
+  public var names: [Swift.String : Swift.String]
+  public var difficultyChanges: [Swift.String : Swift.String]
+  public var weightDifficulties: [Swift.String : [Swift.Int]]
+  public var filteredBlocks: [Swift.String : TrainingKit.ChronoState] {
+    get
+  }
+}
+extension TrainingKit.SaveWorkoutState : Swift.Codable, Swift.Equatable {
+  public static func == (a: TrainingKit.SaveWorkoutState, b: TrainingKit.SaveWorkoutState) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+final public class AssetManager {
+  convenience public init(storeOffline: Swift.Bool = false)
+  final public func download(data: Foundation.Data, token: Swift.String, identifier: Swift.String) async throws -> Combine.AnyPublisher<Swift.Void, any Swift.Error>
+  final public func clearCache()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+final public class StreamManager : ObjectiveC.NSObject {
+  public static let shared: TrainingKit.StreamManager
+  final public func downloadStream(_ video: TrainingKit.Video, metadata: TrainingKit.VideoMetadata, identifier downloadIdentifier: Swift.String, bitrate: Swift.Int, useCellular: Swift.Bool) -> Combine.AnyPublisher<Foundation.Data, Foundation.NSError>
+  final public func downloadStream(_ url: Foundation.URL, title: Swift.String?, subtitle: Swift.String?, assetArtworkData artworkData: Foundation.Data?, identifier downloadIdentifier: Swift.String, bitrate: Swift.Int, useCellular: Swift.Bool, hasVariants isAggregate: Swift.Bool = false) -> Combine.AnyPublisher<Foundation.Data, Foundation.NSError>
+  @objc deinit
+}
+extension TrainingKit.StreamManager : AVFoundation.AVAssetDownloadDelegate {
+  @objc final public func urlSession(_: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  @objc final public func urlSession(_: Foundation.URLSession, aggregateAssetDownloadTask: AVFoundation.AVAggregateAssetDownloadTask, willDownloadTo location: Foundation.URL)
+  @objc final public func urlSession(_: Foundation.URLSession, aggregateAssetDownloadTask: AVFoundation.AVAggregateAssetDownloadTask, didLoad _: CoreMedia.CMTimeRange, totalTimeRangesLoaded loadedTimeRanges: [Foundation.NSValue], timeRangeExpectedToLoad: CoreMedia.CMTimeRange, for mediaSelection: AVFoundation.AVMediaSelection)
+  @objc final public func urlSession(_: Foundation.URLSession, assetDownloadTask: AVFoundation.AVAssetDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc final public func urlSession(_: Foundation.URLSession, assetDownloadTask: AVFoundation.AVAssetDownloadTask, didLoad _: CoreMedia.CMTimeRange, totalTimeRangesLoaded loadedTimeRanges: [Foundation.NSValue], timeRangeExpectedToLoad: CoreMedia.CMTimeRange)
+}
+@available(iOS 15.0, *)
+public enum Tracking {
+  @frozen public enum Event : Swift.String, Swift.CustomStringConvertible {
+    case launched
+    case started
+    case sectionDisplayed
+    case sectionStarted
+    case sectionSkipped
+    case exerciseListDisplayed
+    case exerciseDetailDisplayed
+    case next
+    case promptDisplayed
+    case promptAnswered
+    case quit
+    case sent
+    case musicActivated
+    case musicDeactivated
+    case remoteClientActivated
+    case remoteClientDeactivated
+    public var description: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+    @available(iOS 15.0, *)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @frozen public enum Property : Swift.String, Swift.CustomStringConvertible {
+    case sectionType
+    case sectionName
+    case sectionBlockId
+    case exerciseId
+    case promptType
+    case promptAnswerIdQuartile
+    case promptAnswerIdWeight
+    case promptAnswerIdExtra
+    case promptAnswerIdSection
+    case promptAnswerIdRecoList
+    case promptAnswerIdMax
+    case nextAction
+    case restSection
+    case exerciseName
+    case startAction
+    case quitReason
+    case musicTypes
+    public var description: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+    @available(iOS 15.0, *)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+public class TrainingKitConfig : ObjectiveC.NSObject {
+  @frozen public enum Setting : ObjectiveC.NSInteger, Swift.CaseIterable {
+    @_documentation(visibility: internal) case unknown
+    case audioDuckOthers
+    case voiceIdentifier
+    case externalSoundPack
+    case vibrate
+    case audioCoachInstructions
+    case audioCoachMotivation
+    case audioCoachAdvices
+    case subtitles
+    case musicStyleElectronica
+    case musicStyleHipHopRap
+    case musicStylePop
+    case musicStyleRock
+    public init?(rawValue: ObjectiveC.NSInteger)
+    @available(iOS 15.0, *)
+    public typealias AllCases = [TrainingKit.TrainingKitConfig.Setting]
+    @available(iOS 15.0, *)
+    public typealias RawValue = ObjectiveC.NSInteger
+    nonisolated public static var allCases: [TrainingKit.TrainingKitConfig.Setting] {
+      get
+    }
+    public var rawValue: ObjectiveC.NSInteger {
+      get
+    }
+  }
+  public class func set(_ value: Any?, forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting)
+  public class func set(_ value: Swift.Int, forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting)
+  public class func set(_ value: Swift.Bool, forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting)
+  public class func object(forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting) -> Any?
+  public class func string(forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting) -> Swift.String?
+  public class func float(forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting) -> Swift.Float
+  public class func double(forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting) -> Swift.Double
+  public class func integer(forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting) -> Swift.Int
+  public class func bool(forKey defaultSetting: TrainingKit.TrainingKitConfig.Setting) -> Swift.Bool
+  public class func reset()
+  public static func deviceId() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+public protocol TrainingKitInterface : AnyObject {
+  func saveSession(state: TrainingKit.SaveWorkoutState)
+  func quitWorkout()
+  @discardableResult
+  func displayPostWorkout() -> Combine.AnyPublisher<Swift.Void, Swift.Never>
+}
+@available(iOS 15.0, *)
+public protocol TrainingKitLogInterface : AnyObject {
+  func log(_ message: Swift.String, context: [Swift.String : Swift.AnyHashable]?)
+  func trackEvent(_ name: TrainingKit.Tracking.Event, properties: [TrainingKit.Tracking.Property : Swift.String]?)
+}
+@available(iOS 15.0, *)
+public protocol TrainingKitRegularInterface : AnyObject {
+  func getAllRecommendations(contentIdentifier identifier: Swift.String?) -> Combine.AnyPublisher<Foundation.Data, Swift.Never>
+  func buyPremiumContent(from presenter: UIKit.UIViewController?, placement: Swift.String?, contentIdentifier identifier: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
+  func buyPremiumRecommendation(from presenter: UIKit.UIViewController?, placement: Swift.String?, contentIdentifier identifier: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+public class SessionDelegater : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension TrainingKit.SessionDelegater : WatchConnectivity.WCSessionDelegate {
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, activationDidCompleteWith state: WatchConnectivity.WCSessionActivationState, error: (any Swift.Error)?)
+  @objc dynamic public func sessionReachabilityDidChange(_: WatchConnectivity.WCSession)
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveApplicationContext applicationContext: [Swift.String : Any])
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveMessage message: [Swift.String : Any])
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, didReceiveMessage message: [Swift.String : Any], replyHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveMessageData _: Foundation.Data)
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, didReceiveMessageData messageData: Foundation.Data, replyHandler: @escaping (Foundation.Data) -> Swift.Void)
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didReceiveUserInfo userInfo: [Swift.String : Any] = [:])
+  @objc dynamic public func session(_: WatchConnectivity.WCSession, didFinish userInfoTransfer: WatchConnectivity.WCSessionUserInfoTransfer, error: (any Swift.Error)?)
+  @objc dynamic public func sessionDidBecomeInactive(_ session: WatchConnectivity.WCSession)
+  @objc dynamic public func sessionDidDeactivate(_ session: WatchConnectivity.WCSession)
+  @objc dynamic public func sessionWatchStateDidChange(_ session: WatchConnectivity.WCSession)
+}
+@available(iOS 15.0, watchOS 8.0, *)
+extension Swift.Int {
+  public func formattedDuration(_ allowedUnits: Foundation.NSCalendar.Unit = [.hour, .minute]) -> Swift.String
+}
+extension Foundation.NSNotification.Name {
+  public static let startBuyingContent: Foundation.NSNotification.Name
+  public static let cancelBuyingContent: Foundation.NSNotification.Name
+  public static let userStatusChanged: Foundation.NSNotification.Name
+}
+@available(iOS 15.0, watchOS 8.0, *)
+extension Swift.Double {
+  public func formattedDuration(_ allowedUnits: Foundation.NSCalendar.Unit = [.hour, .minute]) -> Swift.String
+  public func formattedDuration(_ allowedUnits: Foundation.NSCalendar.Unit = [.hour, .minute], attributes: [Foundation.NSAttributedString.Key : Any]? = nil, unitAttributes: [Foundation.NSAttributedString.Key : Any]? = nil) -> Foundation.NSAttributedString
+}
+@available(iOS 15.0, watchOS 8.0, *)
+public enum ExerciseType : Swift.Equatable, Swift.RawRepresentable {
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+  case calibration(_: TrainingKit.CalibrationType)
+  case duration
+  case repetition
+}
+extension TrainingKit.ExerciseType : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, watchOS 8.0, *)
+@frozen public enum CalibrationType : Swift.String, Swift.Codable {
+  case start
+  case end
+  public init?(rawValue: Swift.String)
+  @available(iOS 15.0, watchOS 8.0, *)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@available(iOS 15.0, watchOS 8.0, *)
+public struct ChronoState {
+  public var value: Swift.Double
+  public var referenceDate: Swift.Double
+  public static func stopwatch(value: Foundation.TimeInterval = 0, referenceDate: Foundation.TimeInterval = 0) -> TrainingKit.ChronoState
+}
+@_documentation(visibility: internal) extension TrainingKit.ChronoState : Swift.Equatable {
+  public static func == (a: TrainingKit.ChronoState, b: TrainingKit.ChronoState) -> Swift.Bool
+}
+@_documentation(visibility: internal) extension TrainingKit.ChronoState : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, watchOS 8.0, *)
+public enum WorkoutStateMode : Swift.Int, Swift.Codable {
+  case launcher
+  case start
+  case ongoing
+  case paused
+  case finished
+  case stopped
+  case notStarted
+  public init?(rawValue: Swift.Int)
+  @available(iOS 15.0, watchOS 8.0, *)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 15.0, *)
+extension TrainingKit.RemoteMediaPlayerState : Swift.Equatable {}
+@available(iOS 15.0, *)
+extension TrainingKit.RemoteMediaPlayerState : Swift.Hashable {}
+@available(iOS 15.0, *)
+extension TrainingKit.RemoteMediaPlayerState : Swift.RawRepresentable {}
+@available(iOS 15.0, *)
+extension TrainingKit.GoModeController : TrainingKit.TrainingKitInterface {}
+@available(iOS 15.0, *)
+extension TrainingKit.GoModeController : TrainingKit.TrainingKitLogInterface {}
+@available(iOS 15.0, *)
+extension TrainingKit.GoModeController : TrainingKit.TrainingKitRegularInterface {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Event : Swift.Equatable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Event : Swift.Hashable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Event : Swift.RawRepresentable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Event : Swift.Sendable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Event : Swift.BitwiseCopyable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Property : Swift.Equatable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Property : Swift.Hashable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Property : Swift.RawRepresentable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Property : Swift.Sendable {}
+@available(iOS 15.0, *)
+extension TrainingKit.Tracking.Property : Swift.BitwiseCopyable {}
+@available(iOS 15.0, *)
+extension TrainingKit.TrainingKitConfig.Setting : Swift.Equatable {}
+@available(iOS 15.0, *)
+extension TrainingKit.TrainingKitConfig.Setting : Swift.Hashable {}
+@available(iOS 15.0, *)
+extension TrainingKit.TrainingKitConfig.Setting : Swift.RawRepresentable {}
+@available(iOS 15.0, *)
+extension TrainingKit.TrainingKitConfig.Setting : Swift.Sendable {}
+@available(iOS 15.0, *)
+extension TrainingKit.TrainingKitConfig.Setting : Swift.BitwiseCopyable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.Equatable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.Hashable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.RawRepresentable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.Sendable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.CalibrationType : Swift.BitwiseCopyable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.WorkoutStateMode : Swift.Equatable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.WorkoutStateMode : Swift.Hashable {}
+@available(iOS 15.0, watchOS 8.0, *)
+extension TrainingKit.WorkoutStateMode : Swift.RawRepresentable {}
