@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bBbv4MAK1ZZIGpNs2Iom6+cXNhY=
+		+W2Mv/x0/NerVhxIs8oMHwJgZQo=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bBbv4MAK1ZZIGpNs2Iom6+cXNhY=
+		+W2Mv/x0/NerVhxIs8oMHwJgZQo=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -548,7 +548,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZ775PDvt9IH8ykKbwfmHahqmNcSMaj0/F0Upoqp+lI=
+			30XEQT+4bPTXHdNtVgNlJAUwwR10y1+9FFpFl9G65FY=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -583,7 +583,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZ775PDvt9IH8ykKbwfmHahqmNcSMaj0/F0Upoqp+lI=
+			30XEQT+4bPTXHdNtVgNlJAUwwR10y1+9FFpFl9G65FY=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

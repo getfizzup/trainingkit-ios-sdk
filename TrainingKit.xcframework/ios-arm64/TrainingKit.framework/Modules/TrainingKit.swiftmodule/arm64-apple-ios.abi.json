@@ -31660,105 +31660,112 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6719,
+      "offset": 6795,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6816,
+      "offset": 6902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7163,
+      "offset": 7297,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "FloatLiteral",
-      "offset": 7298,
+      "offset": 7432,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7601,
+      "offset": 7807,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "StringLiteral",
-      "offset": 7696,
+      "offset": 7928,
       "length": 17,
       "value": "\"🤖 Skip Admin\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7805,
+      "offset": 8049,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7854,
+      "offset": 8108,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "FloatLiteral",
-      "offset": 7976,
+      "offset": 8238,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8043,
+      "offset": 8309,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8101,
+      "offset": 8371,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8935,
+      "offset": 9271,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9058,
+      "offset": 9394,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "StringLiteral",
-      "offset": 10007,
+      "offset": 10343,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
       "kind": "Dictionary",
-      "offset": 11562,
+      "offset": 11898,
       "length": 3,
       "value": "[]"
     },
