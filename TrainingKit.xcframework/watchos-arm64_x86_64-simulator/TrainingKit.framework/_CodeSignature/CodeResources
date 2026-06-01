@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		btcvcJDIJwk/yqZwTfQKCeXLPC4=
+		yKjdOSFXenWOnr/m9t9YFcAKTuA=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		h9tMltWl/GCYrc+4ekEVPYGzN08=
+		7IUsGdOCOxOO8RqiJojwW1UrHBI=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		fYIYafhW5Ffs2q5kOkMSIHXeU+k=
+		KJNxNc7RvMdyZQU6Pedsr4WrEQk=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		h9tMltWl/GCYrc+4ekEVPYGzN08=
+		7IUsGdOCOxOO8RqiJojwW1UrHBI=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		2BsjlaWS7MLIyfrYcpq54vz5LVY=
+		GbUI3LAvPXgmCn1w8ZaSFylT0w4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAA7roGxBnsLXJfHOtG+hOqQABsW6Co3ZLqjcRvuzdU=
+			xtVlv717NBrthy59SeKJlOwJeqXkbmlt0Yr9yEIOVDI=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
@@ -226,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7gHbA42CmW821C/Df4peLE6dg1qKHppOahEfzzfYMCo=
+			ywwRJCW//IMesbavUB6lEC/4rLVeRUduNoIgyFZoZA0=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAA7roGxBnsLXJfHOtG+hOqQABsW6Co3ZLqjcRvuzdU=
+			xtVlv717NBrthy59SeKJlOwJeqXkbmlt0Yr9yEIOVDI=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
@@ -261,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WteTWQgbtQRmY4LKDNVN3LkO0ppr8I6w1A89LoshADg=
+			5VRdRvlBCVYipQDXCltKRXBu/1jxL8CiktLsN4Oa0qs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

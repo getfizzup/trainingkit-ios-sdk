@@ -82,21 +82,21 @@ public class SessionGateway : ObjectiveC.NSObject {
   @objc public static let shared: TrainingKit.SessionGateway
   @objc deinit
 }
-extension TrainingKit.GoModeController : UIKit.UICollectionViewDataSource {
+extension TrainingKit.ClassicWorkoutController : UIKit.UICollectionViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_: UIKit.UICollectionView, numberOfItemsInSection _: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
 }
-extension TrainingKit.GoModeController : UIKit.UICollectionViewDelegate {
+extension TrainingKit.ClassicWorkoutController : UIKit.UICollectionViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt _: Foundation.IndexPath)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_: UIKit.UICollectionView, didEndDisplaying cell: UIKit.UICollectionViewCell, forItemAt _: Foundation.IndexPath)
 }
-extension TrainingKit.GoVideoController : AVKit.AVPictureInPictureControllerDelegate {
+extension TrainingKit.StreamingWorkoutController : AVKit.AVPictureInPictureControllerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func pictureInPictureControllerWillStopPictureInPicture(_: AVKit.AVPictureInPictureController)
 }
-extension TrainingKit.GoVideoController : TrainingKit.RemoteManagerDelegate {
+extension TrainingKit.StreamingWorkoutController : TrainingKit.RemoteManagerDelegate {
   @_Concurrency.MainActor @preconcurrency public func remoteSessionDidStart()
   @_Concurrency.MainActor @preconcurrency public func remoteSessionDidEnd(at time: CoreMedia.CMTime)
   @_Concurrency.MainActor @preconcurrency public func remoteSessionDidUpdateMetadata(coverUrl: Foundation.URL?)
@@ -114,6 +114,33 @@ extension TrainingKit.GoVideoController : TrainingKit.RemoteManagerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+@objc @available(iOS 15.0, *)
+@_Concurrency.MainActor @preconcurrency open class ClassicWorkoutController : UIKit.UIViewController {
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(data: Foundation.Data, token: Swift.String, configuration configData: [Swift.String : Any] = [:]) async throws
+  @objc deinit
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency open func shouldDisplayCloseButton() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open func saveSession(state: TrainingKit.SaveWorkoutState)
+  @_Concurrency.MainActor @preconcurrency open func quitWorkout()
+  @_Concurrency.MainActor @preconcurrency open func displayPostWorkout() -> Combine.AnyPublisher<Swift.Void, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func getAllRecommendations(contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<Foundation.Data, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func buyPremiumContent(from _: UIKit.UIViewController?, placement _: Swift.String?, contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func buyPremiumRecommendation(from _: UIKit.UIViewController?, placement _: Swift.String?, contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
+  @_Concurrency.MainActor @preconcurrency open func log(_ message: Swift.String, context: [Swift.String : Swift.AnyHashable]? = nil)
+  @_Concurrency.MainActor @preconcurrency open func trackEvent(_ name: TrainingKit.Tracking.Event, properties: [TrainingKit.Tracking.Property : Swift.String]? = nil)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder _: Foundation.NSCoder)
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 15.0, *)
 @_Concurrency.MainActor @preconcurrency open class ExerciseController : UIKit.UIViewController {
@@ -162,34 +189,7 @@ extension TrainingKit.ExerciseController : UIKit.UIScrollViewDelegate {
   @objc deinit
 }
 @objc @available(iOS 15.0, *)
-@_Concurrency.MainActor @preconcurrency open class GoModeController : UIKit.UIViewController {
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @objc get
-  }
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
-  }
-  @_Concurrency.MainActor @preconcurrency public init(data: Foundation.Data, token: Swift.String, configuration configData: [Swift.String : Any] = [:]) async throws
-  @objc deinit
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
-  @_documentation(visibility: internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
-  @_Concurrency.MainActor @preconcurrency open func shouldDisplayCloseButton() -> Swift.Bool
-  @_Concurrency.MainActor @preconcurrency open func saveSession(state: TrainingKit.SaveWorkoutState)
-  @_Concurrency.MainActor @preconcurrency open func quitWorkout()
-  @_Concurrency.MainActor @preconcurrency open func displayPostWorkout() -> Combine.AnyPublisher<Swift.Void, Swift.Never>
-  @_Concurrency.MainActor @preconcurrency open func getAllRecommendations(contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<Foundation.Data, Swift.Never>
-  @_Concurrency.MainActor @preconcurrency open func buyPremiumContent(from _: UIKit.UIViewController?, placement _: Swift.String?, contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
-  @_Concurrency.MainActor @preconcurrency open func buyPremiumRecommendation(from _: UIKit.UIViewController?, placement _: Swift.String?, contentIdentifier _: Swift.String?) -> Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>
-  @_Concurrency.MainActor @preconcurrency open func log(_ message: Swift.String, context: [Swift.String : Swift.AnyHashable]? = nil)
-  @_Concurrency.MainActor @preconcurrency open func trackEvent(_ name: TrainingKit.Tracking.Event, properties: [TrainingKit.Tracking.Property : Swift.String]? = nil)
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder _: Foundation.NSCoder)
-}
-@objc @available(iOS 15.0, *)
-@_Concurrency.MainActor @preconcurrency open class GoVideoController : UIKit.UIViewController, TrainingKit.TrainingKitInterface, TrainingKit.TrainingKitLogInterface {
+@_Concurrency.MainActor @preconcurrency open class StreamingWorkoutController : UIKit.UIViewController, TrainingKit.TrainingKitInterface, TrainingKit.TrainingKitLogInterface {
   @_Concurrency.MainActor @preconcurrency public var video: TrainingKit.Video {
     get
   }
@@ -230,7 +230,7 @@ extension TrainingKit.ExerciseController : UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor @preconcurrency open func trackEvent(_ name: TrainingKit.Tracking.Event, properties: [TrainingKit.Tracking.Property : Swift.String]? = nil)
   @_Concurrency.MainActor @preconcurrency open func log(_ message: Swift.String, context: [Swift.String : Swift.AnyHashable]? = nil)
 }
-extension TrainingKit.GoVideoController : UIKit.UIToolbarDelegate {
+extension TrainingKit.StreamingWorkoutController : UIKit.UIToolbarDelegate {
 }
 extension Foundation.Data {
   public var streamingVideo: TrainingKit.Video? {
@@ -553,11 +553,11 @@ extension TrainingKit.RemoteMediaPlayerState : Swift.Hashable {}
 @available(iOS 15.0, *)
 extension TrainingKit.RemoteMediaPlayerState : Swift.RawRepresentable {}
 @available(iOS 15.0, *)
-extension TrainingKit.GoModeController : TrainingKit.TrainingKitInterface {}
+extension TrainingKit.ClassicWorkoutController : TrainingKit.TrainingKitInterface {}
 @available(iOS 15.0, *)
-extension TrainingKit.GoModeController : TrainingKit.TrainingKitLogInterface {}
+extension TrainingKit.ClassicWorkoutController : TrainingKit.TrainingKitLogInterface {}
 @available(iOS 15.0, *)
-extension TrainingKit.GoModeController : TrainingKit.TrainingKitRegularInterface {}
+extension TrainingKit.ClassicWorkoutController : TrainingKit.TrainingKitRegularInterface {}
 @available(iOS 15.0, *)
 extension TrainingKit.Tracking.Event : Swift.Equatable {}
 @available(iOS 15.0, *)

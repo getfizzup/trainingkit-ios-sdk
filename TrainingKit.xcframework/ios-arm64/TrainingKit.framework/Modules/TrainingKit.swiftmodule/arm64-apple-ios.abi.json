@@ -3221,6 +3221,1308 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TrainingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "TrainingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrainingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TrainingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClassicWorkoutController",
+        "printedName": "ClassicWorkoutController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "preferredStatusBarStyle",
+            "printedName": "preferredStatusBarStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStatusBarStyle",
+                "printedName": "UIKit.UIStatusBarStyle",
+                "usr": "c:@E@UIStatusBarStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(py)preferredStatusBarStyle",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC23preferredStatusBarStyleSo08UIStatushI0Vvp",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "preferredStatusBarStyle",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStatusBarStyle",
+                    "printedName": "UIKit.UIStatusBarStyle",
+                    "usr": "c:@E@UIStatusBarStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)preferredStatusBarStyle",
+                "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC23preferredStatusBarStyleSo08UIStatushI0Vvg",
+                "moduleName": "TrainingKit",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "preferredStatusBarStyle",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(py)supportedInterfaceOrientations",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)supportedInterfaceOrientations",
+                "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "TrainingKit",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:token:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClassicWorkoutController",
+                "printedName": "TrainingKit.ClassicWorkoutController",
+                "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC4data5token13configurationAC10Foundation4DataV_SSSDySSypGtYaKcfc",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC4data5token13configurationAC10Foundation4DataV_SSSDySSypGtYaKcfc",
+            "moduleName": "TrainingKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)viewDidLoad",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC11viewDidLoadyyF",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)viewWillAppear:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC14viewWillAppearyySbF",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillLayoutSubviews",
+            "printedName": "viewWillLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)viewWillLayoutSubviews",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC22viewWillLayoutSubviewsyyF",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)viewWillDisappear:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC17viewWillDisappearyySbF",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillTransition",
+            "printedName": "viewWillTransition(to:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerTransitionCoordinator",
+                "printedName": "any UIKit.UIViewControllerTransitionCoordinator",
+                "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)viewWillTransitionToSize:withTransitionCoordinator:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIVieweH11Coordinator_ptF",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillTransitionToSize:withTransitionCoordinator:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldDisplayCloseButton",
+            "printedName": "shouldDisplayCloseButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC24shouldDisplayCloseButtonSbyF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC24shouldDisplayCloseButtonSbyF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveSession",
+            "printedName": "saveSession(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SaveWorkoutState",
+                "printedName": "TrainingKit.SaveWorkoutState",
+                "usr": "s:11TrainingKit16SaveWorkoutStateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC11saveSession5stateyAA04SaveD5StateV_tF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC11saveSession5stateyAA04SaveD5StateV_tF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "quitWorkout",
+            "printedName": "quitWorkout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC04quitD0yyF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC04quitD0yyF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayPostWorkout",
+            "printedName": "displayPostWorkout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<(), Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC011displayPostD07Combine12AnyPublisherVyyts5NeverOGyF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC011displayPostD07Combine12AnyPublisherVyyts5NeverOGyF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllRecommendations",
+            "printedName": "getAllRecommendations(contentIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Foundation.Data, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC21getAllRecommendations17contentIdentifier7Combine12AnyPublisherVy10Foundation4DataVs5NeverOGSSSg_tF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC21getAllRecommendations17contentIdentifier7Combine12AnyPublisherVy10Foundation4DataVs5NeverOGSSSg_tF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buyPremiumContent",
+            "printedName": "buyPremiumContent(from:placement:contentIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoughtContent",
+                    "printedName": "TrainingKit.BoughtContent",
+                    "usr": "s:11TrainingKit13BoughtContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC17buyPremiumContent4from9placement17contentIdentifier7Combine12AnyPublisherVyAA06BoughtH0Vs5NeverOGSo06UIViewE0CSg_SSSgAStF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC17buyPremiumContent4from9placement17contentIdentifier7Combine12AnyPublisherVyAA06BoughtH0Vs5NeverOGSo06UIViewE0CSg_SSSgAStF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buyPremiumRecommendation",
+            "printedName": "buyPremiumRecommendation(from:placement:contentIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoughtContent",
+                    "printedName": "TrainingKit.BoughtContent",
+                    "usr": "s:11TrainingKit13BoughtContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC24buyPremiumRecommendation4from9placement17contentIdentifier7Combine12AnyPublisherVyAA13BoughtContentVs5NeverOGSo06UIViewE0CSg_SSSgAStF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC24buyPremiumRecommendation4from9placement17contentIdentifier7Combine12AnyPublisherVyAA13BoughtContentVs5NeverOGSo06UIViewE0CSg_SSSgAStF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.AnyHashable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.AnyHashable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackEvent",
+            "printedName": "trackEvent(_:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "TrainingKit.Tracking.Event",
+                "usr": "s:11TrainingKit8TrackingO5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[TrainingKit.Tracking.Property : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[TrainingKit.Tracking.Property : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Property",
+                        "printedName": "TrainingKit.Tracking.Property",
+                        "usr": "s:11TrainingKit8TrackingO8PropertyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit24ClassicWorkoutControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
+            "moduleName": "TrainingKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClassicWorkoutController",
+                "printedName": "TrainingKit.ClassicWorkoutController",
+                "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)initWithNibName:bundle:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC14collectionView_22numberOfItemsInSectionSiSo012UICollectionG0C_SitF",
+            "moduleName": "TrainingKit",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC14collectionView_13cellForItemAtSo012UICollectionG4CellCSo0lG0C_10Foundation9IndexPathVtF",
+            "moduleName": "TrainingKit",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidScroll",
+            "printedName": "scrollViewDidScroll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)scrollViewDidScroll:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC19scrollViewDidScrollyySo08UIScrollG0CF",
+            "moduleName": "TrainingKit",
+            "objc_name": "scrollViewDidScroll:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDecelerating",
+            "printedName": "scrollViewDidEndDecelerating(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)scrollViewDidEndDecelerating:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC28scrollViewDidEndDeceleratingyySo08UIScrollG0CF",
+            "moduleName": "TrainingKit",
+            "objc_name": "scrollViewDidEndDecelerating:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndScrollingAnimation",
+            "printedName": "scrollViewDidEndScrollingAnimation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)scrollViewDidEndScrollingAnimation:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC34scrollViewDidEndScrollingAnimationyySo08UIScrollG0CF",
+            "moduleName": "TrainingKit",
+            "objc_name": "scrollViewDidEndScrollingAnimation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:willDisplay:forItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)collectionView:willDisplayCell:forItemAtIndexPath:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC14collectionView_11willDisplay9forItemAtySo012UICollectionG0C_So0mG4CellC10Foundation9IndexPathVtF",
+            "moduleName": "TrainingKit",
+            "objc_name": "collectionView:willDisplayCell:forItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didEndDisplaying:forItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrainingKit@objc(cs)ClassicWorkoutController(im)collectionView:didEndDisplayingCell:forItemAtIndexPath:",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC14collectionView_16didEndDisplaying9forItemAtySo012UICollectionG0C_So0nG4CellC10Foundation9IndexPathVtF",
+            "moduleName": "TrainingKit",
+            "objc_name": "collectionView:didEndDisplayingCell:forItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController",
+        "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC",
+        "moduleName": "TrainingKit",
+        "isOpen": true,
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TrainingKitInterface",
+            "printedName": "TrainingKitInterface",
+            "usr": "s:11TrainingKit0aB9InterfaceP",
+            "mangledName": "$s11TrainingKit0aB9InterfaceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TrainingKitLogInterface",
+            "printedName": "TrainingKitLogInterface",
+            "usr": "s:11TrainingKit0aB12LogInterfaceP",
+            "mangledName": "$s11TrainingKit0aB12LogInterfaceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TrainingKitRegularInterface",
+            "printedName": "TrainingKitRegularInterface",
+            "usr": "s:11TrainingKit0aB16RegularInterfaceP",
+            "mangledName": "$s11TrainingKit0aB16RegularInterfaceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
@@ -4756,25 +6058,26 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
         "declKind": "Import",
         "moduleName": "TrainingKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "TrainingKit"
       },
       {
         "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "TrainingKit"
       },
@@ -4787,19 +6090,13 @@
       },
       {
         "kind": "Import",
-        "name": "WatchConnectivity",
-        "printedName": "WatchConnectivity",
-        "declKind": "Import",
-        "moduleName": "TrainingKit"
-      },
-      {
-        "kind": "Import",
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
         "moduleName": "TrainingKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -4813,1248 +6110,11 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "GoModeController",
-        "printedName": "GoModeController",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "preferredStatusBarStyle",
-            "printedName": "preferredStatusBarStyle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIStatusBarStyle",
-                "printedName": "UIKit.UIStatusBarStyle",
-                "usr": "c:@E@UIStatusBarStyle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(py)preferredStatusBarStyle",
-            "mangledName": "$s11TrainingKit16GoModeControllerC23preferredStatusBarStyleSo08UIStatushI0Vvp",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "preferredStatusBarStyle",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIStatusBarStyle",
-                    "printedName": "UIKit.UIStatusBarStyle",
-                    "usr": "c:@E@UIStatusBarStyle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)preferredStatusBarStyle",
-                "mangledName": "$s11TrainingKit16GoModeControllerC23preferredStatusBarStyleSo08UIStatushI0Vvg",
-                "moduleName": "TrainingKit",
-                "overriding": true,
-                "isOpen": true,
-                "objc_name": "preferredStatusBarStyle",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "supportedInterfaceOrientations",
-            "printedName": "supportedInterfaceOrientations",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIInterfaceOrientationMask",
-                "printedName": "UIKit.UIInterfaceOrientationMask",
-                "usr": "c:@E@UIInterfaceOrientationMask"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(py)supportedInterfaceOrientations",
-            "mangledName": "$s11TrainingKit16GoModeControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "supportedInterfaceOrientations",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIInterfaceOrientationMask",
-                    "printedName": "UIKit.UIInterfaceOrientationMask",
-                    "usr": "c:@E@UIInterfaceOrientationMask"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)supportedInterfaceOrientations",
-                "mangledName": "$s11TrainingKit16GoModeControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
-                "moduleName": "TrainingKit",
-                "overriding": true,
-                "isOpen": true,
-                "objc_name": "supportedInterfaceOrientations",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(data:token:configuration:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GoModeController",
-                "printedName": "TrainingKit.GoModeController",
-                "usr": "c:@M@TrainingKit@objc(cs)GoModeController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11TrainingKit16GoModeControllerC4data5token13configurationAC10Foundation4DataV_SSSDySSypGtYaKcfc",
-            "mangledName": "$s11TrainingKit16GoModeControllerC4data5token13configurationAC10Foundation4DataV_SSSDySSypGtYaKcfc",
-            "moduleName": "TrainingKit",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)viewDidLoad",
-            "mangledName": "$s11TrainingKit16GoModeControllerC11viewDidLoadyyF",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewWillAppear",
-            "printedName": "viewWillAppear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)viewWillAppear:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC14viewWillAppearyySbF",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewWillAppear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewWillLayoutSubviews",
-            "printedName": "viewWillLayoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)viewWillLayoutSubviews",
-            "mangledName": "$s11TrainingKit16GoModeControllerC22viewWillLayoutSubviewsyyF",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewWillLayoutSubviews",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewWillDisappear",
-            "printedName": "viewWillDisappear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)viewWillDisappear:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC17viewWillDisappearyySbF",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewWillDisappear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewWillTransition",
-            "printedName": "viewWillTransition(to:with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewControllerTransitionCoordinator",
-                "printedName": "any UIKit.UIViewControllerTransitionCoordinator",
-                "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)viewWillTransitionToSize:withTransitionCoordinator:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIVieweH11Coordinator_ptF",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewWillTransitionToSize:withTransitionCoordinator:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "Documentation"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "shouldDisplayCloseButton",
-            "printedName": "shouldDisplayCloseButton()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC24shouldDisplayCloseButtonSbyF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC24shouldDisplayCloseButtonSbyF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveSession",
-            "printedName": "saveSession(state:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SaveWorkoutState",
-                "printedName": "TrainingKit.SaveWorkoutState",
-                "usr": "s:11TrainingKit16SaveWorkoutStateV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC11saveSession5stateyAA16SaveWorkoutStateV_tF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC11saveSession5stateyAA16SaveWorkoutStateV_tF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "quitWorkout",
-            "printedName": "quitWorkout()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC11quitWorkoutyyF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC11quitWorkoutyyF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "displayPostWorkout",
-            "printedName": "displayPostWorkout()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<(), Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC18displayPostWorkout7Combine12AnyPublisherVyyts5NeverOGyF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC18displayPostWorkout7Combine12AnyPublisherVyyts5NeverOGyF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getAllRecommendations",
-            "printedName": "getAllRecommendations(contentIdentifier:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<Foundation.Data, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC21getAllRecommendations17contentIdentifier7Combine12AnyPublisherVy10Foundation4DataVs5NeverOGSSSg_tF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC21getAllRecommendations17contentIdentifier7Combine12AnyPublisherVy10Foundation4DataVs5NeverOGSSSg_tF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "buyPremiumContent",
-            "printedName": "buyPremiumContent(from:placement:contentIdentifier:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoughtContent",
-                    "printedName": "TrainingKit.BoughtContent",
-                    "usr": "s:11TrainingKit13BoughtContentV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC17buyPremiumContent4from9placement17contentIdentifier7Combine12AnyPublisherVyAA06BoughtH0Vs5NeverOGSo06UIViewE0CSg_SSSgAStF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC17buyPremiumContent4from9placement17contentIdentifier7Combine12AnyPublisherVyAA06BoughtH0Vs5NeverOGSo06UIViewE0CSg_SSSgAStF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "buyPremiumRecommendation",
-            "printedName": "buyPremiumRecommendation(from:placement:contentIdentifier:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<TrainingKit.BoughtContent, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoughtContent",
-                    "printedName": "TrainingKit.BoughtContent",
-                    "usr": "s:11TrainingKit13BoughtContentV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine12AnyPublisherV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC24buyPremiumRecommendation4from9placement17contentIdentifier7Combine12AnyPublisherVyAA13BoughtContentVs5NeverOGSo06UIViewE0CSg_SSSgAStF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC24buyPremiumRecommendation4from9placement17contentIdentifier7Combine12AnyPublisherVyAA13BoughtContentVs5NeverOGSo06UIViewE0CSg_SSSgAStF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "log",
-            "printedName": "log(_:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.AnyHashable]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.AnyHashable]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "trackEvent",
-            "printedName": "trackEvent(_:properties:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Event",
-                "printedName": "TrainingKit.Tracking.Event",
-                "usr": "s:11TrainingKit8TrackingO5EventO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[TrainingKit.Tracking.Property : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[TrainingKit.Tracking.Property : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Property",
-                        "printedName": "TrainingKit.Tracking.Property",
-                        "usr": "s:11TrainingKit8TrackingO8PropertyO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TrainingKit16GoModeControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
-            "mangledName": "$s11TrainingKit16GoModeControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
-            "moduleName": "TrainingKit",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GoModeController",
-                "printedName": "TrainingKit.GoModeController",
-                "usr": "c:@M@TrainingKit@objc(cs)GoModeController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@TrainingKit@objc(cs)GoModeController(im)initWithNibName:bundle:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "TrainingKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "collectionView",
-            "printedName": "collectionView(_:numberOfItemsInSection:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionView",
-                "printedName": "UIKit.UICollectionView",
-                "usr": "c:objc(cs)UICollectionView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)collectionView:numberOfItemsInSection:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC14collectionView_22numberOfItemsInSectionSiSo012UICollectionG0C_SitF",
-            "moduleName": "TrainingKit",
-            "objc_name": "collectionView:numberOfItemsInSection:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "collectionView",
-            "printedName": "collectionView(_:cellForItemAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionViewCell",
-                "printedName": "UIKit.UICollectionViewCell",
-                "usr": "c:objc(cs)UICollectionViewCell"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionView",
-                "printedName": "UIKit.UICollectionView",
-                "usr": "c:objc(cs)UICollectionView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IndexPath",
-                "printedName": "Foundation.IndexPath",
-                "usr": "s:10Foundation9IndexPathV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)collectionView:cellForItemAtIndexPath:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC14collectionView_13cellForItemAtSo012UICollectionG4CellCSo0lG0C_10Foundation9IndexPathVtF",
-            "moduleName": "TrainingKit",
-            "objc_name": "collectionView:cellForItemAtIndexPath:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "scrollViewDidScroll",
-            "printedName": "scrollViewDidScroll(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIScrollView",
-                "printedName": "UIKit.UIScrollView",
-                "usr": "c:objc(cs)UIScrollView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)scrollViewDidScroll:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC19scrollViewDidScrollyySo08UIScrollG0CF",
-            "moduleName": "TrainingKit",
-            "objc_name": "scrollViewDidScroll:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "scrollViewDidEndDecelerating",
-            "printedName": "scrollViewDidEndDecelerating(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIScrollView",
-                "printedName": "UIKit.UIScrollView",
-                "usr": "c:objc(cs)UIScrollView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)scrollViewDidEndDecelerating:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC28scrollViewDidEndDeceleratingyySo08UIScrollG0CF",
-            "moduleName": "TrainingKit",
-            "objc_name": "scrollViewDidEndDecelerating:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "scrollViewDidEndScrollingAnimation",
-            "printedName": "scrollViewDidEndScrollingAnimation(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIScrollView",
-                "printedName": "UIKit.UIScrollView",
-                "usr": "c:objc(cs)UIScrollView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)scrollViewDidEndScrollingAnimation:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC34scrollViewDidEndScrollingAnimationyySo08UIScrollG0CF",
-            "moduleName": "TrainingKit",
-            "objc_name": "scrollViewDidEndScrollingAnimation:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "collectionView",
-            "printedName": "collectionView(_:willDisplay:forItemAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionView",
-                "printedName": "UIKit.UICollectionView",
-                "usr": "c:objc(cs)UICollectionView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionViewCell",
-                "printedName": "UIKit.UICollectionViewCell",
-                "usr": "c:objc(cs)UICollectionViewCell"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IndexPath",
-                "printedName": "Foundation.IndexPath",
-                "usr": "s:10Foundation9IndexPathV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)collectionView:willDisplayCell:forItemAtIndexPath:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC14collectionView_11willDisplay9forItemAtySo012UICollectionG0C_So0mG4CellC10Foundation9IndexPathVtF",
-            "moduleName": "TrainingKit",
-            "objc_name": "collectionView:willDisplayCell:forItemAtIndexPath:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "collectionView",
-            "printedName": "collectionView(_:didEndDisplaying:forItemAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionView",
-                "printedName": "UIKit.UICollectionView",
-                "usr": "c:objc(cs)UICollectionView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UICollectionViewCell",
-                "printedName": "UIKit.UICollectionViewCell",
-                "usr": "c:objc(cs)UICollectionViewCell"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IndexPath",
-                "printedName": "Foundation.IndexPath",
-                "usr": "s:10Foundation9IndexPathV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoModeController(im)collectionView:didEndDisplayingCell:forItemAtIndexPath:",
-            "mangledName": "$s11TrainingKit16GoModeControllerC14collectionView_16didEndDisplaying9forItemAtySo012UICollectionG0C_So0nG4CellC10Foundation9IndexPathVtF",
-            "moduleName": "TrainingKit",
-            "objc_name": "collectionView:didEndDisplayingCell:forItemAtIndexPath:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@TrainingKit@objc(cs)GoModeController",
-        "mangledName": "$s11TrainingKit16GoModeControllerC",
-        "moduleName": "TrainingKit",
-        "isOpen": true,
-        "intro_iOS": "15.0",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "Available",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TrainingKitRegularInterface",
-            "printedName": "TrainingKitRegularInterface",
-            "usr": "s:11TrainingKit0aB16RegularInterfaceP",
-            "mangledName": "$s11TrainingKit0aB16RegularInterfaceP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TrainingKitInterface",
-            "printedName": "TrainingKitInterface",
-            "usr": "s:11TrainingKit0aB9InterfaceP",
-            "mangledName": "$s11TrainingKit0aB9InterfaceP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TrainingKitLogInterface",
-            "printedName": "TrainingKitLogInterface",
-            "usr": "s:11TrainingKit0aB12LogInterfaceP",
-            "mangledName": "$s11TrainingKit0aB12LogInterfaceP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrainingKit"
       },
       {
         "kind": "Import",
@@ -6113,8 +6173,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GoVideoController",
-        "printedName": "GoVideoController",
+        "name": "StreamingWorkoutController",
+        "printedName": "StreamingWorkoutController",
         "children": [
           {
             "kind": "Var",
@@ -6129,8 +6189,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11TrainingKit17GoVideoControllerC5videoAA0D0Vvp",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC5videoAA0D0Vvp",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC5videoAA5VideoVvp",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC5videoAA5VideoVvp",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -6155,8 +6215,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC5videoAA0D0Vvg",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC5videoAA0D0Vvg",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC5videoAA5VideoVvg",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC5videoAA5VideoVvg",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6176,8 +6236,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11TrainingKit17GoVideoControllerC8metadataAA0D8MetadataVvp",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC8metadataAA0D8MetadataVvp",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC8metadataAA13VideoMetadataVvp",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC8metadataAA13VideoMetadataVvp",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -6202,8 +6262,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC8metadataAA0D8MetadataVvg",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC8metadataAA0D8MetadataVvg",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC8metadataAA13VideoMetadataVvg",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC8metadataAA13VideoMetadataVvg",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6223,8 +6283,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0Cvp",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0Cvp",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0Cvp",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0Cvp",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "HasInitialValue",
@@ -6249,8 +6309,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0Cvg",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0Cvg",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0Cvg",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0Cvg",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6273,8 +6333,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0Cvs",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0Cvs",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0Cvs",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0Cvs",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6291,8 +6351,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0CvM",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC13remoteManagerAA06RemoteG0CvM",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0CvM",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC13remoteManagerAA06RemoteG0CvM",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "intro_iOS": "15.0",
@@ -6324,8 +6384,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvp",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvp",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvp",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvp",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "HasInitialValue",
@@ -6358,8 +6418,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvg",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvg",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvg",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvg",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6390,8 +6450,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvs",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvs",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvs",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvs",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6408,8 +6468,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvM",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC9leftItemsSaySo15UIBarButtonItemCGvM",
+                "usr": "s:11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvM",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC9leftItemsSaySo15UIBarButtonItemCGvM",
                 "moduleName": "TrainingKit",
                 "implicit": true,
                 "intro_iOS": "15.0",
@@ -6433,8 +6493,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(py)prefersStatusBarHidden",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC22prefersStatusBarHiddenSbvp",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(py)prefersStatusBarHidden",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC22prefersStatusBarHiddenSbvp",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6463,8 +6523,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)prefersStatusBarHidden",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC22prefersStatusBarHiddenSbvg",
+                "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)prefersStatusBarHidden",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC22prefersStatusBarHiddenSbvg",
                 "moduleName": "TrainingKit",
                 "overriding": true,
                 "isOpen": true,
@@ -6490,8 +6550,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(py)prefersHomeIndicatorAutoHidden",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC30prefersHomeIndicatorAutoHiddenSbvp",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(py)prefersHomeIndicatorAutoHidden",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC30prefersHomeIndicatorAutoHiddenSbvp",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6519,8 +6579,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)prefersHomeIndicatorAutoHidden",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC30prefersHomeIndicatorAutoHiddenSbvg",
+                "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)prefersHomeIndicatorAutoHidden",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC30prefersHomeIndicatorAutoHiddenSbvg",
                 "moduleName": "TrainingKit",
                 "overriding": true,
                 "isOpen": true,
@@ -6546,8 +6606,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(py)preferredInterfaceOrientationForPresentation",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvp",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(py)preferredInterfaceOrientationForPresentation",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvp",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6575,8 +6635,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)preferredInterfaceOrientationForPresentation",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvg",
+                "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)preferredInterfaceOrientationForPresentation",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceH0Vvg",
                 "moduleName": "TrainingKit",
                 "overriding": true,
                 "isOpen": true,
@@ -6602,8 +6662,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(py)supportedInterfaceOrientations",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(py)supportedInterfaceOrientations",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6632,8 +6692,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)supportedInterfaceOrientations",
-                "mangledName": "$s11TrainingKit17GoVideoControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)supportedInterfaceOrientations",
+                "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
                 "moduleName": "TrainingKit",
                 "overriding": true,
                 "isOpen": true,
@@ -6653,9 +6713,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GoVideoController",
-                "printedName": "TrainingKit.GoVideoController",
-                "usr": "c:@M@TrainingKit@objc(cs)GoVideoController"
+                "name": "StreamingWorkoutController",
+                "printedName": "TrainingKit.StreamingWorkoutController",
+                "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController"
               },
               {
                 "kind": "TypeNominal",
@@ -6706,8 +6766,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11TrainingKit17GoVideoControllerC4data11localStream5token13configurationAC10Foundation4DataV_AH3URLVSgSSSDySSypGtYaKcfc",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC4data11localStream5token13configurationAC10Foundation4DataV_AH3URLVSgSSSDySSypGtYaKcfc",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC4data11localStream5token13configurationAC10Foundation4DataV_AH3URLVSgSSSDySSypGtYaKcfc",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC4data11localStream5token13configurationAC10Foundation4DataV_AH3URLVSgSSSDySSypGtYaKcfc",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -6730,8 +6790,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)viewDidLoad",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC11viewDidLoadyyF",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)viewDidLoad",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC11viewDidLoadyyF",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6765,8 +6825,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)viewWillAppear:",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC14viewWillAppearyySbF",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)viewWillAppear:",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC14viewWillAppearyySbF",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6800,8 +6860,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)viewWillDisappear:",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC17viewWillDisappearyySbF",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)viewWillDisappear:",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC17viewWillDisappearyySbF",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6829,8 +6889,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)viewDidLayoutSubviews",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC21viewDidLayoutSubviewsyyF",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)viewDidLayoutSubviews",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC21viewDidLayoutSubviewsyyF",
             "moduleName": "TrainingKit",
             "overriding": true,
             "isOpen": true,
@@ -6864,8 +6924,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC11saveSession5stateyAA16SaveWorkoutStateV_tF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC11saveSession5stateyAA16SaveWorkoutStateV_tF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC11saveSession5stateyAA04SaveD5StateV_tF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC11saveSession5stateyAA04SaveD5StateV_tF",
             "moduleName": "TrainingKit",
             "isOpen": true,
             "declAttributes": [
@@ -6888,8 +6948,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)quitWorkout",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC11quitWorkoutyyF",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)quitWorkout",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC04quitD0yyF",
             "moduleName": "TrainingKit",
             "isOpen": true,
             "declAttributes": [
@@ -6926,8 +6986,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC18displayPostWorkout7Combine12AnyPublisherVyyts5NeverOGyF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC18displayPostWorkout7Combine12AnyPublisherVyyts5NeverOGyF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC011displayPostD07Combine12AnyPublisherVyyts5NeverOGyF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC011displayPostD07Combine12AnyPublisherVyyts5NeverOGyF",
             "moduleName": "TrainingKit",
             "isOpen": true,
             "declAttributes": [
@@ -6984,8 +7044,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC10trackEvent_10propertiesyAA8TrackingO0G0O_SDyAG8PropertyOSSGSgtF",
             "moduleName": "TrainingKit",
             "isOpen": true,
             "declAttributes": [
@@ -7043,8 +7103,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC3log_7contextySS_SDySSs11AnyHashableVGSgtF",
             "moduleName": "TrainingKit",
             "isOpen": true,
             "declAttributes": [
@@ -7061,9 +7121,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GoVideoController",
-                "printedName": "TrainingKit.GoVideoController",
-                "usr": "c:@M@TrainingKit@objc(cs)GoVideoController"
+                "name": "StreamingWorkoutController",
+                "printedName": "TrainingKit.StreamingWorkoutController",
+                "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController"
               },
               {
                 "kind": "TypeNominal",
@@ -7095,8 +7155,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TrainingKit@objc(cs)GoVideoController(im)initWithNibName:bundle:",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController(im)initWithNibName:bundle:",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
             "moduleName": "TrainingKit",
             "overriding": true,
             "implicit": true,
@@ -7128,8 +7188,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@TrainingKit@objc(cs)GoVideoController(im)pictureInPictureControllerWillStopPictureInPicture:",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC016pictureInPicturee8WillStophgH0yySo09AVPictureghE0CF",
+            "usr": "c:@CM@TrainingKit@objc(cs)StreamingWorkoutController(im)pictureInPictureControllerWillStopPictureInPicture:",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC016pictureInPicturee8WillStophgH0yySo09AVPictureghE0CF",
             "moduleName": "TrainingKit",
             "objc_name": "pictureInPictureControllerWillStopPictureInPicture:",
             "declAttributes": [
@@ -7154,8 +7214,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC21remoteSessionDidStartyyF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC21remoteSessionDidStartyyF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC21remoteSessionDidStartyyF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC21remoteSessionDidStartyyF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7183,8 +7243,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC19remoteSessionDidEnd2atySo6CMTimea_tF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC19remoteSessionDidEnd2atySo6CMTimea_tF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC19remoteSessionDidEnd2atySo6CMTimea_tF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC19remoteSessionDidEnd2atySo6CMTimea_tF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7220,8 +7280,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC30remoteSessionDidUpdateMetadata8coverUrly10Foundation3URLVSg_tF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC30remoteSessionDidUpdateMetadata8coverUrly10Foundation3URLVSg_tF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC30remoteSessionDidUpdateMetadata8coverUrly10Foundation3URLVSg_tF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC30remoteSessionDidUpdateMetadata8coverUrly10Foundation3URLVSg_tF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7269,8 +7329,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC33remoteSessionDidUpdateMediaStatus4time03hasJ05stateySo6CMTimea_SbAA06RemoteJ11PlayerStateOSgtF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC33remoteSessionDidUpdateMediaStatus4time03hasJ05stateySo6CMTimea_SbAA06RemoteJ11PlayerStateOSgtF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC33remoteSessionDidUpdateMediaStatus4time03hasJ05stateySo6CMTimea_SbAA06RemoteJ11PlayerStateOSgtF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC33remoteSessionDidUpdateMediaStatus4time03hasJ05stateySo6CMTimea_SbAA06RemoteJ11PlayerStateOSgtF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7292,8 +7352,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC22remoteSessionDidResumeyyF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC22remoteSessionDidResumeyyF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC22remoteSessionDidResumeyyF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC22remoteSessionDidResumeyyF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7315,8 +7375,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC26remoteSessionCanStartMediayyF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC26remoteSessionCanStartMediayyF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC26remoteSessionCanStartMediayyF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC26remoteSessionCanStartMediayyF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7344,8 +7404,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC27remoteSessionCanResumeMedia2atySo6CMTimea_tF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC27remoteSessionCanResumeMedia2atySo6CMTimea_tF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC27remoteSessionCanResumeMedia2atySo6CMTimea_tF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC27remoteSessionCanResumeMedia2atySo6CMTimea_tF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7367,8 +7427,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC30remoteSessionOtherMediaPlayingyyF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC30remoteSessionOtherMediaPlayingyyF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC30remoteSessionOtherMediaPlayingyyF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC30remoteSessionOtherMediaPlayingyyF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7390,8 +7450,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TrainingKit17GoVideoControllerC23remoteDidTapQuitWorkoutyyF",
-            "mangledName": "$s11TrainingKit17GoVideoControllerC23remoteDidTapQuitWorkoutyyF",
+            "usr": "s:11TrainingKit26StreamingWorkoutControllerC016remoteDidTapQuitD0yyF",
+            "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC016remoteDidTapQuitD0yyF",
             "moduleName": "TrainingKit",
             "declAttributes": [
               "Preconcurrency",
@@ -7403,8 +7463,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TrainingKit@objc(cs)GoVideoController",
-        "mangledName": "$s11TrainingKit17GoVideoControllerC",
+        "usr": "c:@M@TrainingKit@objc(cs)StreamingWorkoutController",
+        "mangledName": "$s11TrainingKit26StreamingWorkoutControllerC",
         "moduleName": "TrainingKit",
         "isOpen": true,
         "intro_iOS": "15.0",
@@ -7529,66 +7589,6 @@
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "TrainingKit",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "TrainingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "TrainingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "TrainingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
-        "declKind": "Import",
-        "moduleName": "TrainingKit",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SnapKit",
-        "printedName": "SnapKit",
-        "declKind": "Import",
-        "moduleName": "TrainingKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "TrainingKit"
       },
       {
         "kind": "Import",
@@ -11513,26 +11513,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "TrainingKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "TrainingKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
@@ -11562,6 +11542,26 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "TrainingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -31168,16 +31168,16 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/Extensions\/GoModeController+StoreSubscriber.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/Extensions\/ClassicWorkoutController+StoreSubscriber.swift",
       "kind": "BooleanLiteral",
-      "offset": 9300,
+      "offset": 9316,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/Extensions\/GoModeController+StoreSubscriber.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/Extensions\/ClassicWorkoutController+StoreSubscriber.swift",
       "kind": "BooleanLiteral",
-      "offset": 10623,
+      "offset": 10639,
       "length": 4,
       "value": "true"
     },
@@ -31187,6 +31187,83 @@
       "offset": 667,
       "length": 3,
       "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1149,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1512,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1632,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "Dictionary",
+      "offset": 3092,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "StringLiteral",
+      "offset": 14055,
+      "length": 18,
+      "value": "\"SlideAnimationAE\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "StringLiteral",
+      "offset": 14083,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "StringLiteral",
+      "offset": 14608,
+      "length": 25,
+      "value": "\"wk_action_slide_workout\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14703,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15314,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22058,
+      "length": 5,
+      "value": "0.500"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23205,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ExerciseController.swift",
@@ -31453,321 +31530,6 @@
       "offset": 5341,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1133,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1496,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1616,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "Dictionary",
-      "offset": 3076,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "StringLiteral",
-      "offset": 13999,
-      "length": 18,
-      "value": "\"SlideAnimationAE\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "StringLiteral",
-      "offset": 14027,
-      "length": 6,
-      "value": "\"json\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "StringLiteral",
-      "offset": 14552,
-      "length": 25,
-      "value": "\"wk_action_slide_workout\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14647,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15258,
-      "length": 3,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "FloatLiteral",
-      "offset": 22002,
-      "length": 5,
-      "value": "0.500"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoModeController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23149,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1729,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2048,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2060,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2085,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2386,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2475,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2652,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2796,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2817,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2961,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3125,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3137,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3187,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3582,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3690,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5506,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "StringLiteral",
-      "offset": 6268,
-      "length": 13,
-      "value": "\"music.notes\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6363,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6795,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6902,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7297,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7432,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7807,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7893,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "StringLiteral",
-      "offset": 7928,
-      "length": 17,
-      "value": "\"🤖 Skip Admin\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8049,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8108,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8238,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8309,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8371,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9271,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9394,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "StringLiteral",
-      "offset": 10343,
-      "length": 13,
-      "value": "\"orientation\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/GoVideoController.swift",
-      "kind": "Dictionary",
-      "offset": 11898,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PauseController.swift",
@@ -32113,219 +31875,457 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1747,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2066,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268,
-      "length": 2,
-      "value": "15"
+      "offset": 2078,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 273,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
       "kind": "BooleanLiteral",
-      "offset": 332,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 360,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 20,
-      "value": "\"wk_common_optional\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 506,
-      "length": 21,
-      "value": "\"wk_common_mandatory\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 19,
-      "value": "\"wk_common_premium\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 644,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 7,
-      "value": "\"wk_ok\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 775,
-      "length": 35,
-      "value": "\"wk_go_workout_evaluation_question\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 846,
+      "offset": 2103,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 901,
-      "length": 29,
-      "value": "\"wk_go_speech_prompt_turn_on\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 30,
-      "value": "\"wk_go_speech_prompt_turn_off\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1067,
-      "length": 36,
-      "value": "\"wk_go_speech_prompt_overview_title\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1156,
-      "length": 26,
-      "value": "\"wk_go_speech_prompt_hint\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1236,
-      "length": 26,
-      "value": "\"wk_go_speech_prompt_keep\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 30,
-      "value": "\"wk_go_speech_prompt_turn_off\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1407,
-      "length": 40,
-      "value": "\"wk_go_speech_prompt_confirmation_title\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1504,
-      "length": 26,
-      "value": "\"wk_go_speech_prompt_hint\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1569,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1622,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1677,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1750,
-      "length": 35,
-      "value": "\"wk_common_require_premium_caption\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1838,
-      "length": 34,
-      "value": "\"wk_common_require_premium_button\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1931,
-      "length": 41,
-      "value": "\"wk_common_require_premium_unlock_button\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2022,
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2404,
       "length": 2,
-      "value": "\"\""
+      "value": "60"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2493,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2670,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2814,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3143,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3155,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3205,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3600,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3708,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5524,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
       "kind": "StringLiteral",
-      "offset": 2067,
+      "offset": 6286,
+      "length": 13,
+      "value": "\"music.notes\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6813,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6920,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7315,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7450,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7825,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7911,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "StringLiteral",
+      "offset": 7946,
+      "length": 17,
+      "value": "\"🤖 Skip Admin\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8067,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8126,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8256,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8327,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9289,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9412,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "StringLiteral",
+      "offset": 10361,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/StreamingWorkoutController.swift",
+      "kind": "Dictionary",
+      "offset": 11916,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 376,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 20,
+      "value": "\"wk_common_optional\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 21,
+      "value": "\"wk_common_mandatory\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 19,
+      "value": "\"wk_common_premium\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 660,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
       "length": 7,
       "value": "\"wk_ok\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
+      "offset": 791,
+      "length": 35,
+      "value": "\"wk_go_workout_evaluation_question\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 29,
+      "value": "\"wk_go_speech_prompt_turn_on\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 30,
+      "value": "\"wk_go_speech_prompt_turn_off\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 36,
+      "value": "\"wk_go_speech_prompt_overview_title\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 26,
+      "value": "\"wk_go_speech_prompt_hint\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
+      "length": 26,
+      "value": "\"wk_go_speech_prompt_keep\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 30,
+      "value": "\"wk_go_speech_prompt_turn_off\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1423,
+      "length": 40,
+      "value": "\"wk_go_speech_prompt_confirmation_title\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1520,
+      "length": 26,
+      "value": "\"wk_go_speech_prompt_hint\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1638,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1766,
+      "length": 35,
+      "value": "\"wk_common_require_premium_caption\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1854,
+      "length": 34,
+      "value": "\"wk_common_require_premium_button\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 41,
+      "value": "\"wk_common_require_premium_unlock_button\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2083,
+      "length": 7,
+      "value": "\"wk_ok\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2136,
       "length": 9,
       "value": "\"wk_done\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 2188,
       "length": 16,
       "value": "\"wk_action_save\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2232,
+      "offset": 2248,
       "length": 25,
       "value": "\"wk_action_start_workout\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/GoModeConfiguration.swift",
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/ClassicWorkoutConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2331,
+      "offset": 2347,
       "length": 5,
       "value": "false"
     },
@@ -32927,14 +32927,14 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/TaskList.swift",
       "kind": "BooleanLiteral",
-      "offset": 23607,
+      "offset": 23631,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Decode\/TaskList.swift",
       "kind": "BooleanLiteral",
-      "offset": 26561,
+      "offset": 26585,
       "length": 5,
       "value": "false"
     },
@@ -35431,6 +35431,349 @@
       "value": "0.2"
     },
     {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 30,
+      "value": "\"ClassicWorkoutCellIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 924,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 997,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1132,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1172,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1223,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1232,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1244,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1254,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1478,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1965,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2094,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2124,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2174,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2214,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2278,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2758,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2944,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2984,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3037,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3048,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3350,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3403,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3607,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 3830,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 3870,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3923,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3934,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3974,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4222,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4426,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 4500,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 4540,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4604,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "StringLiteral",
+      "offset": 5047,
+      "length": 7,
+      "value": "\"fr_FR\""
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5110,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 5690,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 5831,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/ClassicWorkoutCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 5865,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/CoverButton.swift",
       "kind": "FloatLiteral",
       "offset": 307,
@@ -35585,349 +35928,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 377,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "StringLiteral",
-      "offset": 411,
-      "length": 22,
-      "value": "\"GoModeCellIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 900,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 973,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1044,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 1108,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1148,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1199,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1208,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1230,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1413,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1524,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1941,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2070,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2100,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 2150,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 2190,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2243,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2254,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2294,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2531,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2734,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 2920,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 2960,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3013,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3024,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3064,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3326,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3379,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3583,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 3806,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 3846,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3899,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3910,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3950,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4198,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4402,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 4476,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 4516,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4569,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4580,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4620,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "StringLiteral",
-      "offset": 5023,
-      "length": 7,
-      "value": "\"fr_FR\""
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5086,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 5666,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 5807,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/GoModeCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 5841,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/HintView.swift",
       "kind": "IntegerLiteral",
       "offset": 343,
@@ -36056,7 +36056,7 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/NavigationView.swift",
       "kind": "FloatLiteral",
-      "offset": 4543,
+      "offset": 4551,
       "length": 5,
       "value": "0.500"
     },
@@ -36091,21 +36091,21 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/OverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5953,
+      "offset": 5969,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/OverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5979,
+      "offset": 5995,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/UI\/Views\/OverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6001,
+      "offset": 6017,
       "length": 5,
       "value": "false"
     },
@@ -36385,21 +36385,21 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Utils\/AssetManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5313,
+      "offset": 5321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Utils\/AssetManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15445,
+      "offset": 15453,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Utils\/AssetManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20860,
+      "offset": 20868,
       "length": 5,
       "value": "false"
     },
@@ -37128,27 +37128,27 @@
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
       "offset": 280,
-      "length": 18,
-      "value": "\"GoModeController\""
+      "length": 26,
+      "value": "\"ClassicWorkoutController\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 328,
       "length": 21,
       "value": "\"HeartRateController\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 367,
       "length": 17,
       "value": "\"PauseController\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
-      "offset": 396,
+      "offset": 404,
       "length": 19,
       "value": "\"WelcomeController\""
     },

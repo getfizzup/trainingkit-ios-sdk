@@ -391,6 +391,54 @@ SWIFT_CLASS("_TtC11TrainingKit23AudioSettingsController") SWIFT_AVAILABILITY(ios
 @end
 
 @protocol UIViewControllerTransitionCoordinator;
+/// An object that manages a workout session for your UIKit app.
+SWIFT_CLASS("_TtC11TrainingKit24ClassicWorkoutController") SWIFT_AVAILABILITY(ios,introduced=15.0)
+@interface ClassicWorkoutController : UIViewController
+/// The preferred status bar style for the view controller.
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+/// Returns all of the interface orientations that the view controller supports.
+/// note:
+/// Controller supports all orientations for iPad only.
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+@class NSIndexPath;
+@class UICollectionViewCell;
+@interface ClassicWorkoutController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDataSource>
+/// Fetches the count of items in the specified section.
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)_ numberOfItemsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
+/// Asks your data source object for the cell that corresponds to the specified item in the collection view.
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIScrollView;
+@interface ClassicWorkoutController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDelegate>
+/// Tells the delegate when the user scrolls the content view within the scroll view.
+/// \param scrollView The scroll-view object in which the scrolling occurred.
+///
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+/// Tells the delegate that the scroll view ended decelerating the scrolling movement.
+/// \param scrollView The scroll-view object that’s decelerating the scrolling of the content view.
+///
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+/// Tells the delegate when a scrolling animation in the scroll view concludes.
+/// \param scrollView The scroll-view object that’s performing the scrolling animation.
+///
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView * _Nonnull)scrollView;
+/// Tells the delegate that the specified cell is about to be displayed in the collection view.
+- (void)collectionView:(UICollectionView * _Nonnull)_ willDisplayCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
+/// Tells the delegate that the specified cell was removed from the collection view.
+- (void)collectionView:(UICollectionView * _Nonnull)_ didEndDisplayingCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
+@end
+
 /// Controller that displays an exercise (video, execution steps…).
 SWIFT_CLASS("_TtC11TrainingKit18ExerciseController") SWIFT_AVAILABILITY(ios,introduced=15.0)
 @interface ExerciseController : UIViewController
@@ -405,7 +453,6 @@ SWIFT_CLASS("_TtC11TrainingKit18ExerciseController") SWIFT_AVAILABILITY(ios,intr
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class UIScrollView;
 @interface ExerciseController (SWIFT_EXTENSION(TrainingKit)) <UIScrollViewDelegate>
 - (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)_;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
@@ -425,79 +472,6 @@ SWIFT_CLASS("_TtC11TrainingKit23ExerciseVideoController") SWIFT_AVAILABILITY(ios
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-/// An object that manages a workout session for your UIKit app.
-SWIFT_CLASS("_TtC11TrainingKit16GoModeController") SWIFT_AVAILABILITY(ios,introduced=15.0)
-@interface GoModeController : UIViewController
-/// The preferred status bar style for the view controller.
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-/// Returns all of the interface orientations that the view controller supports.
-/// note:
-/// Controller supports all orientations for iPad only.
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillLayoutSubviews;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class UICollectionView;
-@class NSIndexPath;
-@class UICollectionViewCell;
-@interface GoModeController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDataSource>
-/// Fetches the count of items in the specified section.
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)_ numberOfItemsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
-/// Asks your data source object for the cell that corresponds to the specified item in the collection view.
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@interface GoModeController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDelegate>
-/// Tells the delegate when the user scrolls the content view within the scroll view.
-/// \param scrollView The scroll-view object in which the scrolling occurred.
-///
-- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
-/// Tells the delegate that the scroll view ended decelerating the scrolling movement.
-/// \param scrollView The scroll-view object that’s decelerating the scrolling of the content view.
-///
-- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
-/// Tells the delegate when a scrolling animation in the scroll view concludes.
-/// \param scrollView The scroll-view object that’s performing the scrolling animation.
-///
-- (void)scrollViewDidEndScrollingAnimation:(UIScrollView * _Nonnull)scrollView;
-/// Tells the delegate that the specified cell is about to be displayed in the collection view.
-- (void)collectionView:(UICollectionView * _Nonnull)_ willDisplayCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
-/// Tells the delegate that the specified cell was removed from the collection view.
-- (void)collectionView:(UICollectionView * _Nonnull)_ didEndDisplayingCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
-@end
-
-/// An object that manages a video workout session for your UIKit app.
-SWIFT_CLASS("_TtC11TrainingKit17GoVideoController") SWIFT_AVAILABILITY(ios,introduced=15.0)
-@interface GoVideoController : UIViewController
-@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
-@property (nonatomic, readonly) BOOL prefersHomeIndicatorAutoHidden;
-@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
-/// Returns all of the interface orientations that the view controller supports.
-/// Currently <code>.landscapeLeft</code> for all devices.
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidLayoutSubviews;
-- (void)quitWorkout;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class AVPictureInPictureController;
-@interface GoVideoController (SWIFT_EXTENSION(TrainingKit)) <AVPictureInPictureControllerDelegate>
-- (void)pictureInPictureControllerWillStopPictureInPicture:(AVPictureInPictureController * _Nonnull)_;
-@end
-
-@interface GoVideoController (SWIFT_EXTENSION(TrainingKit)) <UIToolbarDelegate>
 @end
 
 /// This object used to communicate between a WatchKit extension and the companion iOS app.
@@ -600,6 +574,32 @@ SWIFT_CLASS("_TtC11TrainingKit13StreamManager") SWIFT_AVAILABILITY(ios,introduce
 - (void)URLSession:(NSURLSession * _Nonnull)_ assetDownloadTask:(AVAssetDownloadTask * _Nonnull)assetDownloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
 /// Tells the delegate that a download task loaded a new time range.
 - (void)URLSession:(NSURLSession * _Nonnull)_ assetDownloadTask:(AVAssetDownloadTask * _Nonnull)assetDownloadTask didLoadTimeRange:(CMTimeRange)_ totalTimeRangesLoaded:(NSArray<NSValue *> * _Nonnull)loadedTimeRanges timeRangeExpectedToLoad:(CMTimeRange)timeRangeExpectedToLoad;
+@end
+
+/// An object that manages a video workout session for your UIKit app.
+SWIFT_CLASS("_TtC11TrainingKit26StreamingWorkoutController") SWIFT_AVAILABILITY(ios,introduced=15.0)
+@interface StreamingWorkoutController : UIViewController
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+@property (nonatomic, readonly) BOOL prefersHomeIndicatorAutoHidden;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+/// Returns all of the interface orientations that the view controller supports.
+/// Currently <code>.landscapeLeft</code> for all devices.
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (void)quitWorkout;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class AVPictureInPictureController;
+@interface StreamingWorkoutController (SWIFT_EXTENSION(TrainingKit)) <AVPictureInPictureControllerDelegate>
+- (void)pictureInPictureControllerWillStopPictureInPicture:(AVPictureInPictureController * _Nonnull)_;
+@end
+
+@interface StreamingWorkoutController (SWIFT_EXTENSION(TrainingKit)) <UIToolbarDelegate>
 @end
 
 /// An interface to TrainingKit defaults database, where you store key-value pairs persistently across launches of your app.
@@ -1009,6 +1009,54 @@ SWIFT_CLASS("_TtC11TrainingKit23AudioSettingsController") SWIFT_AVAILABILITY(ios
 @end
 
 @protocol UIViewControllerTransitionCoordinator;
+/// An object that manages a workout session for your UIKit app.
+SWIFT_CLASS("_TtC11TrainingKit24ClassicWorkoutController") SWIFT_AVAILABILITY(ios,introduced=15.0)
+@interface ClassicWorkoutController : UIViewController
+/// The preferred status bar style for the view controller.
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+/// Returns all of the interface orientations that the view controller supports.
+/// note:
+/// Controller supports all orientations for iPad only.
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+@class NSIndexPath;
+@class UICollectionViewCell;
+@interface ClassicWorkoutController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDataSource>
+/// Fetches the count of items in the specified section.
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)_ numberOfItemsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
+/// Asks your data source object for the cell that corresponds to the specified item in the collection view.
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIScrollView;
+@interface ClassicWorkoutController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDelegate>
+/// Tells the delegate when the user scrolls the content view within the scroll view.
+/// \param scrollView The scroll-view object in which the scrolling occurred.
+///
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+/// Tells the delegate that the scroll view ended decelerating the scrolling movement.
+/// \param scrollView The scroll-view object that’s decelerating the scrolling of the content view.
+///
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+/// Tells the delegate when a scrolling animation in the scroll view concludes.
+/// \param scrollView The scroll-view object that’s performing the scrolling animation.
+///
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView * _Nonnull)scrollView;
+/// Tells the delegate that the specified cell is about to be displayed in the collection view.
+- (void)collectionView:(UICollectionView * _Nonnull)_ willDisplayCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
+/// Tells the delegate that the specified cell was removed from the collection view.
+- (void)collectionView:(UICollectionView * _Nonnull)_ didEndDisplayingCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
+@end
+
 /// Controller that displays an exercise (video, execution steps…).
 SWIFT_CLASS("_TtC11TrainingKit18ExerciseController") SWIFT_AVAILABILITY(ios,introduced=15.0)
 @interface ExerciseController : UIViewController
@@ -1023,7 +1071,6 @@ SWIFT_CLASS("_TtC11TrainingKit18ExerciseController") SWIFT_AVAILABILITY(ios,intr
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class UIScrollView;
 @interface ExerciseController (SWIFT_EXTENSION(TrainingKit)) <UIScrollViewDelegate>
 - (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)_;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
@@ -1043,79 +1090,6 @@ SWIFT_CLASS("_TtC11TrainingKit23ExerciseVideoController") SWIFT_AVAILABILITY(ios
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-/// An object that manages a workout session for your UIKit app.
-SWIFT_CLASS("_TtC11TrainingKit16GoModeController") SWIFT_AVAILABILITY(ios,introduced=15.0)
-@interface GoModeController : UIViewController
-/// The preferred status bar style for the view controller.
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-/// Returns all of the interface orientations that the view controller supports.
-/// note:
-/// Controller supports all orientations for iPad only.
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillLayoutSubviews;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class UICollectionView;
-@class NSIndexPath;
-@class UICollectionViewCell;
-@interface GoModeController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDataSource>
-/// Fetches the count of items in the specified section.
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)_ numberOfItemsInSection:(NSInteger)_ SWIFT_WARN_UNUSED_RESULT;
-/// Asks your data source object for the cell that corresponds to the specified item in the collection view.
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@interface GoModeController (SWIFT_EXTENSION(TrainingKit)) <UICollectionViewDelegate>
-/// Tells the delegate when the user scrolls the content view within the scroll view.
-/// \param scrollView The scroll-view object in which the scrolling occurred.
-///
-- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
-/// Tells the delegate that the scroll view ended decelerating the scrolling movement.
-/// \param scrollView The scroll-view object that’s decelerating the scrolling of the content view.
-///
-- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
-/// Tells the delegate when a scrolling animation in the scroll view concludes.
-/// \param scrollView The scroll-view object that’s performing the scrolling animation.
-///
-- (void)scrollViewDidEndScrollingAnimation:(UIScrollView * _Nonnull)scrollView;
-/// Tells the delegate that the specified cell is about to be displayed in the collection view.
-- (void)collectionView:(UICollectionView * _Nonnull)_ willDisplayCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
-/// Tells the delegate that the specified cell was removed from the collection view.
-- (void)collectionView:(UICollectionView * _Nonnull)_ didEndDisplayingCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)_;
-@end
-
-/// An object that manages a video workout session for your UIKit app.
-SWIFT_CLASS("_TtC11TrainingKit17GoVideoController") SWIFT_AVAILABILITY(ios,introduced=15.0)
-@interface GoVideoController : UIViewController
-@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
-@property (nonatomic, readonly) BOOL prefersHomeIndicatorAutoHidden;
-@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
-/// Returns all of the interface orientations that the view controller supports.
-/// Currently <code>.landscapeLeft</code> for all devices.
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidLayoutSubviews;
-- (void)quitWorkout;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class AVPictureInPictureController;
-@interface GoVideoController (SWIFT_EXTENSION(TrainingKit)) <AVPictureInPictureControllerDelegate>
-- (void)pictureInPictureControllerWillStopPictureInPicture:(AVPictureInPictureController * _Nonnull)_;
-@end
-
-@interface GoVideoController (SWIFT_EXTENSION(TrainingKit)) <UIToolbarDelegate>
 @end
 
 /// This object used to communicate between a WatchKit extension and the companion iOS app.
@@ -1218,6 +1192,32 @@ SWIFT_CLASS("_TtC11TrainingKit13StreamManager") SWIFT_AVAILABILITY(ios,introduce
 - (void)URLSession:(NSURLSession * _Nonnull)_ assetDownloadTask:(AVAssetDownloadTask * _Nonnull)assetDownloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
 /// Tells the delegate that a download task loaded a new time range.
 - (void)URLSession:(NSURLSession * _Nonnull)_ assetDownloadTask:(AVAssetDownloadTask * _Nonnull)assetDownloadTask didLoadTimeRange:(CMTimeRange)_ totalTimeRangesLoaded:(NSArray<NSValue *> * _Nonnull)loadedTimeRanges timeRangeExpectedToLoad:(CMTimeRange)timeRangeExpectedToLoad;
+@end
+
+/// An object that manages a video workout session for your UIKit app.
+SWIFT_CLASS("_TtC11TrainingKit26StreamingWorkoutController") SWIFT_AVAILABILITY(ios,introduced=15.0)
+@interface StreamingWorkoutController : UIViewController
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+@property (nonatomic, readonly) BOOL prefersHomeIndicatorAutoHidden;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+/// Returns all of the interface orientations that the view controller supports.
+/// Currently <code>.landscapeLeft</code> for all devices.
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (void)quitWorkout;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class AVPictureInPictureController;
+@interface StreamingWorkoutController (SWIFT_EXTENSION(TrainingKit)) <AVPictureInPictureControllerDelegate>
+- (void)pictureInPictureControllerWillStopPictureInPicture:(AVPictureInPictureController * _Nonnull)_;
+@end
+
+@interface StreamingWorkoutController (SWIFT_EXTENSION(TrainingKit)) <UIToolbarDelegate>
 @end
 
 /// An interface to TrainingKit defaults database, where you store key-value pairs persistently across launches of your app.
