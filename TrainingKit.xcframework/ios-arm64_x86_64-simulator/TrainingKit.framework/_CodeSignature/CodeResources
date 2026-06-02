@@ -34,11 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		56RkXrsp+6uRwy0xUbK6QwiRTdo=
+		J/Bj/UUlwiBtjf8Eakyjj3BT9/Q=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iggBetOs5Kn2hU/D3/ocppTwM+A=
+		1oekBmKah7yRqmuVM6Lz31c2NZ8=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iggBetOs5Kn2hU/D3/ocppTwM+A=
+		1oekBmKah7yRqmuVM6Lz31c2NZ8=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -548,7 +548,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			28o4GkKsMNOc3QK3SlYfZ1I21Y9nqn8cFBFx/+oK17M=
+			blcfe5reck8L/6/nr3D6I5WWtS+HKxj7GclDqaH2LIQ=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -583,7 +583,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			28o4GkKsMNOc3QK3SlYfZ1I21Y9nqn8cFBFx/+oK17M=
+			blcfe5reck8L/6/nr3D6I5WWtS+HKxj7GclDqaH2LIQ=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
