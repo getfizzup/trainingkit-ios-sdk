@@ -18,9 +18,11 @@ query GetSessionContent($id: ID!) {
 	publicWorkoutSession(globalId: $id, configuration: {difficulty: EASY}) {
 		... on WorkoutBlockSession {
 			...WorkoutBlockSessionItem
+            trainingKitToken
 		}
 		... on WorkoutVideoSession {
 			...WorkoutVideoSessionItem
+            trainingKitToken
 		}
 	}
 }

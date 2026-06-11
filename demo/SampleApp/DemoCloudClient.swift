@@ -55,7 +55,7 @@ final class DemoHeadersAddingInterceptor: HTTPInterceptor {
 
     func intercept(request: URLRequest, next: @Sendable (URLRequest) async throws -> Apollo.HTTPResponse) async throws -> Apollo.HTTPResponse {
         var newRequest = request
-        newRequest.addValue(TrainingKitConfig.deviceId(), forHTTPHeaderField: "X-WorkoutKit-Device")
+        newRequest.addValue(TrainingKitConfig.deviceId(), forHTTPHeaderField: "X-TrainingKit-Device")
 
         return try await next(newRequest)
     }

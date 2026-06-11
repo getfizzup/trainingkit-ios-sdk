@@ -1,10 +1,10 @@
-# WorkoutKit demo app
+# TrainingKit demo app
 
 ## Overview
-This demo app demonstrates how to retrieve a list of workout sessions and run it on the training interface offered by WorkoutKit.
+This demo app demonstrates how to retrieve a list of workout sessions and run it on the training interface offered by TrainingKit.
 
 ## Getting started guide
-The getting started guide is available as part of the WorkoutKit documentation. More info [here](../../README.md).
+The getting started guide is available as part of the TrainingKit documentation. More info [here](../../README.md).
 
 ## GraphQL Client Generation (DemoCloud package)
 

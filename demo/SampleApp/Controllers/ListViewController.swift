@@ -184,18 +184,22 @@ extension ListViewController: UICollectionViewDelegate {
         let response = try await DemoCloudClient.shared.fetch(query: GetSessionContentQuery(id: item.id), cachePolicy: .networkOnly)
 
         // Retrieve token to use fetched data.
-        guard let wk = response.extensions?["workoutkit"] as? [String: String], let token = wk["token"] else { return }
+        guard let session = response.data?.publicWorkoutSession else { return }
 
-        guard let data = try? response.data?.publicWorkoutSession.asJSONData() else { return }
+        guard let data = try? session.asJSONData() else { return }
 
         Task { [weak self] in
             do {
                 var controller: UIViewController?
 
                 // Check data type to open the right controller.
-                if response.data?.publicWorkoutSession.asWorkoutBlockSession != nil {
+                if response.data?.publicWorkoutSession.asWorkoutBlockSession != nil,
+                   let token = session.asWorkoutBlockSession?.trainingKitToken
+                {
                     controller = try await MonGoModeController(data: data, token: token)
-                } else if response.data?.publicWorkoutSession.asWorkoutVideoSession != nil {
+                } else if response.data?.publicWorkoutSession.asWorkoutVideoSession != nil,
+                          let token = session.asWorkoutVideoSession?.trainingKitToken
+                {
                     controller = try await MonVideoGoController(data: data, token: token)
                 }
 
