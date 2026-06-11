@@ -1,0 +1,33 @@
+{
+  "originHash" : "a9551943b57cff4ad944085d45792d62d5a0f59bf378c9c24f922a03cd03cd72",
+  "pins" : [
+    {
+      "identity" : "apollo-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apollographql/apollo-ios",
+      "state" : {
+        "revision" : "68aba4be6a951a26f2f587e132ed8f82b5a63511",
+        "version" : "2.0.4"
+      }
+    },
+    {
+      "identity" : "bdlocalizeddevicesmodels",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bixcorp/BDLocalizedDevicesModels",
+      "state" : {
+        "revision" : "47e24d570efa84f4638a69297dda0145741e9cad",
+        "version" : "3.9.0"
+      }
+    },
+    {
+      "identity" : "trainingkit-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getfizzup/trainingkit-ios-sdk",
+      "state" : {
+        "revision" : "e97c47fd516339922b976da11dbc0a262c092b6b",
+        "version" : "2.6.0"
+      }
+    }
+  ],
+  "version" : 3
+}

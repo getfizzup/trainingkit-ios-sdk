@@ -1,0 +1,43 @@
+{
+  "schemaNamespace" : "DemoCloud",
+  "schemaDownloadConfiguration" : {
+      "downloadMethod": {
+          "introspection": {
+              "endpointURL": "https://server.com/graphql",
+              "httpMethod": {
+                  "POST": {}
+              },
+              "includeDeprecatedInputValues": false,
+              "outputFormat": "SDL"
+          }
+      },
+      "downloadTimeout": 60,
+      "headers": [{"key": "X-Developer-Authorization-Key", "value": "your-key"}],
+      "outputPath": "./schema.graphqls"
+  },
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./../DemoCloud",
+      "moduleType" : {
+        "swiftPackage" : {
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
