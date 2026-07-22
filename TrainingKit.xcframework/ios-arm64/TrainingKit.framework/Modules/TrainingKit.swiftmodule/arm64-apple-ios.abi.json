@@ -8167,6 +8167,331 @@
         "moduleName": "TrainingKit"
       },
       {
+        "kind": "TypeDecl",
+        "name": "EvaluationChoice",
+        "printedName": "EvaluationChoice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tooEasy",
+            "printedName": "tooEasy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrainingKit.EvaluationChoice.Type) -> TrainingKit.EvaluationChoice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationChoice",
+                    "printedName": "TrainingKit.EvaluationChoice",
+                    "usr": "s:11TrainingKit16EvaluationChoiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrainingKit.EvaluationChoice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationChoice",
+                        "printedName": "TrainingKit.EvaluationChoice",
+                        "usr": "s:11TrainingKit16EvaluationChoiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TrainingKit16EvaluationChoiceO7tooEasyyA2CmF",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO7tooEasyyA2CmF",
+            "moduleName": "TrainingKit"
+          },
+          {
+            "kind": "Var",
+            "name": "easy",
+            "printedName": "easy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrainingKit.EvaluationChoice.Type) -> TrainingKit.EvaluationChoice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationChoice",
+                    "printedName": "TrainingKit.EvaluationChoice",
+                    "usr": "s:11TrainingKit16EvaluationChoiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrainingKit.EvaluationChoice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationChoice",
+                        "printedName": "TrainingKit.EvaluationChoice",
+                        "usr": "s:11TrainingKit16EvaluationChoiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TrainingKit16EvaluationChoiceO4easyyA2CmF",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO4easyyA2CmF",
+            "moduleName": "TrainingKit"
+          },
+          {
+            "kind": "Var",
+            "name": "perfect",
+            "printedName": "perfect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrainingKit.EvaluationChoice.Type) -> TrainingKit.EvaluationChoice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationChoice",
+                    "printedName": "TrainingKit.EvaluationChoice",
+                    "usr": "s:11TrainingKit16EvaluationChoiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrainingKit.EvaluationChoice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationChoice",
+                        "printedName": "TrainingKit.EvaluationChoice",
+                        "usr": "s:11TrainingKit16EvaluationChoiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TrainingKit16EvaluationChoiceO7perfectyA2CmF",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO7perfectyA2CmF",
+            "moduleName": "TrainingKit"
+          },
+          {
+            "kind": "Var",
+            "name": "hard",
+            "printedName": "hard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrainingKit.EvaluationChoice.Type) -> TrainingKit.EvaluationChoice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationChoice",
+                    "printedName": "TrainingKit.EvaluationChoice",
+                    "usr": "s:11TrainingKit16EvaluationChoiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrainingKit.EvaluationChoice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationChoice",
+                        "printedName": "TrainingKit.EvaluationChoice",
+                        "usr": "s:11TrainingKit16EvaluationChoiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TrainingKit16EvaluationChoiceO4hardyA2CmF",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO4hardyA2CmF",
+            "moduleName": "TrainingKit"
+          },
+          {
+            "kind": "Var",
+            "name": "tooHard",
+            "printedName": "tooHard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrainingKit.EvaluationChoice.Type) -> TrainingKit.EvaluationChoice",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationChoice",
+                    "printedName": "TrainingKit.EvaluationChoice",
+                    "usr": "s:11TrainingKit16EvaluationChoiceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrainingKit.EvaluationChoice.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationChoice",
+                        "printedName": "TrainingKit.EvaluationChoice",
+                        "usr": "s:11TrainingKit16EvaluationChoiceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TrainingKit16EvaluationChoiceO7tooHardyA2CmF",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO7tooHardyA2CmF",
+            "moduleName": "TrainingKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrainingKit.EvaluationChoice?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationChoice",
+                    "printedName": "TrainingKit.EvaluationChoice",
+                    "usr": "s:11TrainingKit16EvaluationChoiceO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrainingKit16EvaluationChoiceO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO8rawValueACSgSi_tcfc",
+            "moduleName": "TrainingKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrainingKit16EvaluationChoiceO8rawValueSivp",
+            "mangledName": "$s11TrainingKit16EvaluationChoiceO8rawValueSivp",
+            "moduleName": "TrainingKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrainingKit16EvaluationChoiceO8rawValueSivg",
+                "mangledName": "$s11TrainingKit16EvaluationChoiceO8rawValueSivg",
+                "moduleName": "TrainingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TrainingKit16EvaluationChoiceO",
+        "mangledName": "$s11TrainingKit16EvaluationChoiceO",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -34635,35 +34960,35 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/Prompt.swift",
       "kind": "IntegerLiteral",
-      "offset": 37130,
+      "offset": 37210,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/Prompt.swift",
       "kind": "IntegerLiteral",
-      "offset": 37148,
+      "offset": 37228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/Prompt.swift",
       "kind": "IntegerLiteral",
-      "offset": 37169,
+      "offset": 37249,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/Prompt.swift",
       "kind": "IntegerLiteral",
-      "offset": 37187,
+      "offset": 37267,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/Prompt.swift",
       "kind": "IntegerLiteral",
-      "offset": 37208,
+      "offset": 37288,
       "length": 1,
       "value": "6"
     },
