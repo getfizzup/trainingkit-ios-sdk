@@ -250,15 +250,16 @@ public struct BoughtContent {
     get
   }
 }
-public enum EvaluationChoice : Swift.Int {
-  case tooEasy
-  case easy
-  case perfect
-  case hard
+public enum EvaluationChoice : Swift.String, Swift.Codable {
   case tooHard
+  case hard
+  case perfect
+  case easy
+  case tooEasy
   public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -289,7 +290,7 @@ public struct ExerciseEvaluation {
   public let identifier: Swift.String
   public let repetitions: Swift.Int
   public let duration: Foundation.TimeInterval
-  public let choice: Swift.Int?
+  public let choice: TrainingKit.EvaluationChoice?
 }
 extension TrainingKit.ExerciseEvaluation : Swift.Codable, Swift.Equatable {
   public static func == (a: TrainingKit.ExerciseEvaluation, b: TrainingKit.ExerciseEvaluation) -> Swift.Bool
@@ -321,7 +322,7 @@ public struct SaveWorkoutState {
   public var calories: [Swift.String : Swift.Double]
   public var names: [Swift.String : Swift.String]
   public var difficultyChanges: [Swift.String : Swift.String]
-  public var weightDifficulties: [Swift.String : [Swift.Int]]
+  public var weightDifficulties: [Swift.String : [TrainingKit.EvaluationChoice]]
   public var filteredBlocks: [Swift.String : TrainingKit.ChronoState] {
     get
   }
