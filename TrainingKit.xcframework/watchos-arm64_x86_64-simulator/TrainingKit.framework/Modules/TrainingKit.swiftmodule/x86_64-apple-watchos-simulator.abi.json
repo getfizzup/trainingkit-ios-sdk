@@ -5451,924 +5451,924 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
       "kind": "IntegerLiteral",
       "offset": 245,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKit\/TrainingKit\/Models\/PlaybackState.swift",
       "kind": "IntegerLiteral",
       "offset": 289,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Actions\/GoAction+Countdown.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Actions\/GoAction+Countdown.swift",
       "kind": "IntegerLiteral",
       "offset": 1165,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 18,
       "value": "\"UpdateAppContext\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 13,
       "value": "\"SendMessage\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 424,
       "length": 17,
       "value": "\"SendMessageData\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 18,
       "value": "\"TransferUserInfo\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 513,
       "length": 14,
       "value": "\"TransferFile\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 30,
       "value": "\"TransferComplicationUserInfo\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 9,
       "value": "\"Updated\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 753,
       "length": 6,
       "value": "\"Sent\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 10,
       "value": "\"Received\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 810,
       "length": 9,
       "value": "\"Replied\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 844,
       "length": 14,
       "value": "\"Transferring\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 879,
       "length": 10,
       "value": "\"Canceled\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 10,
       "value": "\"Finished\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 8,
       "value": "\"Failed\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/CommandStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 1752,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/SessionCommands.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/SessionCommands.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 17,
       "value": "\"SessionCommands\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/SessionDelegater.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/SessionDelegater.swift",
       "kind": "Dictionary",
       "offset": 2675,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 22,
       "value": "\"GoFinishedController\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 26,
       "value": "\"ClassicWorkoutController\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 21,
       "value": "\"HeartRateController\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 17,
       "value": "\"PauseController\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Communication\/WatchControllerName.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 19,
       "value": "\"WelcomeController\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Logger+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Logger+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 10,
       "value": "\"Tracking\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Logger+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Logger+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 7,
       "value": "\"Debug\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Logger+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Logger+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 9,
       "value": "\"Workout\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 31,
       "value": "\"WK.ThemeDidChangeNotification\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 555,
       "length": 16,
       "value": "\"WK.DataDidFlow\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 26,
       "value": "\"WK.ActivationDidComplete\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 26,
       "value": "\"WK.ReachabilityDidChange\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 23,
       "value": "\"WK.StartBuyingContent\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1129,
       "length": 24,
       "value": "\"WK.CancelBuyingContent\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/Notification.Name+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1399,
       "length": 22,
       "value": "\"WK.UserStatusChanged\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/UIColor+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/UIColor+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 648,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/UIColor+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/UIColor+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1011,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/UIColor+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/UIColor+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1023,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
       "kind": "Array",
       "offset": 223,
       "length": 60,
       "value": "[1140, 1024, 960, 720, 640, 512, 300, 228, 138, 114, 50, 35]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
       "kind": "Array",
       "offset": 415,
       "length": 43,
       "value": "[2000, 1440, 1280, 960, 768, 640, 540, 230]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 5,
       "value": "\"q80\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 888,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Extensions\/URL+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 912,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 23,
       "value": "\"com.app.redux.hdredux\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
       "kind": "Array",
       "offset": 1096,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
       "kind": "Array",
       "offset": 1211,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/AppStateStore.swift",
       "kind": "Array",
       "offset": 1377,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchChoice.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchChoice.swift",
       "kind": "BooleanLiteral",
       "offset": 626,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchChoice.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchChoice.swift",
       "kind": "BooleanLiteral",
       "offset": 648,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchPrompt.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchPrompt.swift",
       "kind": "BooleanLiteral",
       "offset": 554,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchPrompt.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/Models\/WatchPrompt.swift",
       "kind": "Array",
       "offset": 705,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 341,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 729,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "BooleanLiteral",
       "offset": 1045,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 1144,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 1177,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "BooleanLiteral",
       "offset": 1197,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 1395,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/ChronoState.swift",
       "kind": "IntegerLiteral",
       "offset": 1428,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 1287,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "BooleanLiteral",
       "offset": 1527,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 1794,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 1812,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2454,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2497,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2581,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2642,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2704,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2819,
       "length": 10,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2958,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitShared\/TrainingKitShared\/State\/WatchState.swift",
       "kind": "IntegerLiteral",
       "offset": 2975,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Communication\/SessionGateway.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Communication\/SessionGateway.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 16,
       "value": "\"SessionGateway\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Communication\/SessionGateway.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Communication\/SessionGateway.swift",
       "kind": "BooleanLiteral",
       "offset": 666,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Models\/HeartRate.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Models\/HeartRate.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Utils\/Constants.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 12,
       "value": "\"storeQueue\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Utils\/Constants.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 29,
       "value": "\"com.fizzup.TrainingKitWatch\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Utils\/Constants.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 921,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
       "offset": 517,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 671,
       "length": 7,
       "value": "\"fr_FR\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
       "offset": 734,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
       "offset": 9835,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 9897,
       "length": 8,
       "value": "\"29 min\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 9930,
       "length": 11,
       "value": "\"Full Body\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 9973,
       "length": 4,
       "value": "\"42\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 10003,
       "length": 13,
       "value": "\"Curl biceps\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 10042,
       "length": 38,
       "value": "\"1 répétition = 1 droite + 1 gauche\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
       "offset": 10150,
       "length": 5,
       "value": "\"9×\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
       "offset": 10185,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
       "offset": 10234,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
       "offset": 10286,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
       "offset": 10674,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/HeartView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/HeartView.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 24,
       "value": "\"heart.text.square.fill\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "BooleanLiteral",
       "offset": 565,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 2919,
       "length": 8,
       "value": "\"29 min\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 2952,
       "length": 11,
       "value": "\"Full Body\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 2995,
       "length": 4,
       "value": "\"42\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 3025,
       "length": 13,
       "value": "\"Curl biceps\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 3064,
       "length": 38,
       "value": "\"1 répétition = 1 droite + 1 gauche\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 3172,
       "length": 5,
       "value": "\"9×\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3207,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3256,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "BooleanLiteral",
       "offset": 3308,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "StringLiteral",
       "offset": 3448,
       "length": 9,
       "value": "\"Bonjour\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "BooleanLiteral",
       "offset": 3469,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "BooleanLiteral",
       "offset": 3485,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PagingView.swift",
       "kind": "BooleanLiteral",
       "offset": 3517,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
       "kind": "StringLiteral",
       "offset": 316,
       "length": 19,
       "value": "\"pause.circle.fill\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 17,
       "value": "\"wkw_button_quit\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
       "kind": "BooleanLiteral",
       "offset": 479,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
       "kind": "BooleanLiteral",
       "offset": 524,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PauseView.swift",
       "kind": "BooleanLiteral",
       "offset": 573,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 9,
       "value": "\"Message\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "StringLiteral",
       "offset": 337,
       "length": 12,
       "value": "\"Commmencer\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "BooleanLiteral",
       "offset": 466,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "BooleanLiteral",
       "offset": 5299,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "StringLiteral",
       "offset": 5334,
       "length": 21,
       "value": "\"Title de mon prompt\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "BooleanLiteral",
       "offset": 5367,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "BooleanLiteral",
       "offset": 5383,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "StringLiteral",
       "offset": 5433,
       "length": 14,
       "value": "\"Défi cardio\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "StringLiteral",
       "offset": 5470,
       "length": 14,
       "value": "\"Défi cardio\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "BooleanLiteral",
       "offset": 5494,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "BooleanLiteral",
       "offset": 5532,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/PromptView.swift",
       "kind": "StringLiteral",
       "offset": 5614,
       "length": 8,
       "value": "\"martha\""
     },
     {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/WelcomeView.swift",
+      "filePath": "\/Users\/benoit\/Developer\/wkio\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/WelcomeView.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 24,
       "value": "\"wkw_launch_from_device\""
     },
     {
-      "filePath": "\/Users\/benoit\/Library\/Developer\/Xcode\/DerivedData\/TrainingKit-blekzozdptswsnekqdwoblfbsgjo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrainingKit\/IntermediateBuildFilesPath\/TrainingKit.build\/Release-watchsimulator\/TrainingKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/benoit\/Library\/Developer\/Xcode\/DerivedData\/TrainingKit-dhtyezdsmrfjgoggybipeunzjskl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrainingKit\/IntermediateBuildFilesPath\/TrainingKit.build\/Release-watchsimulator\/TrainingKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 13,
       "value": "\"music.notes\""
     },
     {
-      "filePath": "\/Users\/benoit\/Library\/Developer\/Xcode\/DerivedData\/TrainingKit-blekzozdptswsnekqdwoblfbsgjo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrainingKit\/IntermediateBuildFilesPath\/TrainingKit.build\/Release-watchsimulator\/TrainingKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/benoit\/Library\/Developer\/Xcode\/DerivedData\/TrainingKit-dhtyezdsmrfjgoggybipeunzjskl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TrainingKit\/IntermediateBuildFilesPath\/TrainingKit.build\/Release-watchsimulator\/TrainingKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 11,
