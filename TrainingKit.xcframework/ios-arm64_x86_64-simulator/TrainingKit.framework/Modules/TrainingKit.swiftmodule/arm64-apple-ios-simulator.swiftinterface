@@ -291,6 +291,8 @@ public struct ExerciseEvaluation {
   public let repetitions: Swift.Int
   public let duration: Foundation.TimeInterval
   public let choice: TrainingKit.EvaluationChoice?
+  public let blockId: Swift.String?
+  public let exerciseMaxReferenceValue: Swift.Double?
 }
 extension TrainingKit.ExerciseEvaluation : Swift.Codable, Swift.Equatable {
   public static func == (a: TrainingKit.ExerciseEvaluation, b: TrainingKit.ExerciseEvaluation) -> Swift.Bool

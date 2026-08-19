@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JnWXk1Bh65NVi5b9JmsEYyhMuHg=
+		4f+h2KzgOYhm+IgXLS4vyFbI02o=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		wCaS6xQ63nG44HlHMY6L5bKFmPU=
+		7IUsGdOCOxOO8RqiJojwW1UrHBI=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		KkkSNnWJ7HFuIvEHBykAP3qn9Tw=
+		hSNEvsVaUQYDkaDkWuuNcIB+tzA=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		wCaS6xQ63nG44HlHMY6L5bKFmPU=
+		7IUsGdOCOxOO8RqiJojwW1UrHBI=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		qY3wdQa9e08y2V9be6pdTU8rIFs=
+		5so9f+btHWf4S4GnAwBXCLsiW4o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkT3Drf2sT8BqDhk1SEXm+/rb9R2s+skA3/h/ygKmWE=
+			xtVlv717NBrthy59SeKJlOwJeqXkbmlt0Yr9yEIOVDI=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
@@ -226,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0CH/XgcvA0IrD0NG4MhergvrOgxk2MLtZxx6jRaCrs=
+			d1BnM0QU7x8Jo5RZO5dG8H6Z7EPtwWh7V6rot57cY9g=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkT3Drf2sT8BqDhk1SEXm+/rb9R2s+skA3/h/ygKmWE=
+			xtVlv717NBrthy59SeKJlOwJeqXkbmlt0Yr9yEIOVDI=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
@@ -261,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ErzCvbMx8QMESNUoCZQH6lxgGlejPc1FF/Qsb0HkPI=
+			CxlYqKqU159tAFXJk2+AiuG5ppt5o6owuOIP24/kdRo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
