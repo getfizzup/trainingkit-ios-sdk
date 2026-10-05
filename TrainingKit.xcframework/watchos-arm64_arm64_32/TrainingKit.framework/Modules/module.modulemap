@@ -1,0 +1,3 @@
+framework module TrainingKit {
+  header "TrainingKit-Swift.h"
+}

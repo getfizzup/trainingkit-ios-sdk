@@ -6055,77 +6055,77 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9835,
+      "offset": 10067,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 9897,
+      "offset": 10129,
       "length": 8,
       "value": "\"29 min\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 9930,
+      "offset": 10162,
       "length": 11,
       "value": "\"Full Body\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 9973,
+      "offset": 10205,
       "length": 4,
       "value": "\"42\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 10003,
+      "offset": 10235,
       "length": 13,
       "value": "\"Curl biceps\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 10042,
+      "offset": 10274,
       "length": 38,
       "value": "\"1 répétition = 1 droite + 1 gauche\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 10150,
+      "offset": 10382,
       "length": 5,
       "value": "\"9×\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10185,
+      "offset": 10417,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10234,
+      "offset": 10466,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10286,
+      "offset": 10518,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10674,
+      "offset": 10906,
       "length": 5,
       "value": "false"
     },
