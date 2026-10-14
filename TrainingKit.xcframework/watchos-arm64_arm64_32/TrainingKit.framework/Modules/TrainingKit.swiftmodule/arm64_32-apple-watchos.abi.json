@@ -3688,6 +3688,27 @@
           },
           {
             "kind": "Conformance",
+            "name": "IntentValueConvertible",
+            "printedName": "IntentValueConvertible",
+            "usr": "s:21AppIntentsTypeSupport22IntentValueConvertibleP",
+            "mangledName": "$s21AppIntentsTypeSupport22IntentValueConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IntentValueExpressing",
+            "printedName": "IntentValueExpressing",
+            "usr": "s:21AppIntentsTypeSupport21IntentValueExpressingP",
+            "mangledName": "$s21AppIntentsTypeSupport21IntentValueExpressingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -3764,6 +3785,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleFromBytes",
+            "printedName": "ConvertibleFromBytes",
+            "usr": "s:s20ConvertibleFromBytesP",
+            "mangledName": "$ss20ConvertibleFromBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleToBytes",
+            "printedName": "ConvertibleToBytes",
+            "usr": "s:s18ConvertibleToBytesP",
+            "mangledName": "$ss18ConvertibleToBytesP"
           },
           {
             "kind": "Conformance",
@@ -4100,28 +4135,6 @@
             ],
             "usr": "s:7SwiftUI18_FormatSpecifiableP",
             "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic32BitStorage",
-                    "printedName": "Synchronization._Atomic32BitStorage",
-                    "usr": "s:15Synchronization19_Atomic32BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -4287,8 +4300,7 @@
           "SynthesizedProtocol",
           "SynthesizedProtocol",
           "SynthesizedProtocol",
-          "SynthesizedProtocol",
-          "Sendable"
+          "SynthesizedProtocol"
         ],
         "isFromExtension": true,
         "isExternal": true,
@@ -4588,6 +4600,27 @@
           },
           {
             "kind": "Conformance",
+            "name": "IntentValueConvertible",
+            "printedName": "IntentValueConvertible",
+            "usr": "s:21AppIntentsTypeSupport22IntentValueConvertibleP",
+            "mangledName": "$s21AppIntentsTypeSupport22IntentValueConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IntentValueExpressing",
+            "printedName": "IntentValueExpressing",
+            "usr": "s:21AppIntentsTypeSupport21IntentValueExpressingP",
+            "mangledName": "$s21AppIntentsTypeSupport21IntentValueExpressingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -4670,6 +4703,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleFromBytes",
+            "printedName": "ConvertibleFromBytes",
+            "usr": "s:s20ConvertibleFromBytesP",
+            "mangledName": "$ss20ConvertibleFromBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleToBytes",
+            "printedName": "ConvertibleToBytes",
+            "usr": "s:s18ConvertibleToBytesP",
+            "mangledName": "$ss18ConvertibleToBytesP"
           },
           {
             "kind": "Conformance",
@@ -5093,28 +5140,6 @@
             ],
             "usr": "s:7SwiftUI18_FormatSpecifiableP",
             "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic64BitStorage",
-                    "printedName": "Synchronization._Atomic64BitStorage",
-                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -5315,6 +5340,20 @@
             ],
             "usr": "s:10AppIntents12_IntentValueP",
             "mangledName": "$s10AppIntents12_IntentValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IntentValueConvertible",
+            "printedName": "IntentValueConvertible",
+            "usr": "s:21AppIntentsTypeSupport22IntentValueConvertibleP",
+            "mangledName": "$s21AppIntentsTypeSupport22IntentValueConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IntentValueExpressing",
+            "printedName": "IntentValueExpressing",
+            "usr": "s:21AppIntentsTypeSupport21IntentValueExpressingP",
+            "mangledName": "$s21AppIntentsTypeSupport21IntentValueExpressingP"
           },
           {
             "kind": "Conformance",
@@ -6055,77 +6094,77 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9835,
+      "offset": 10067,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 9897,
+      "offset": 10129,
       "length": 8,
       "value": "\"29 min\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 9930,
+      "offset": 10162,
       "length": 11,
       "value": "\"Full Body\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 9973,
+      "offset": 10205,
       "length": 4,
       "value": "\"42\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 10003,
+      "offset": 10235,
       "length": 13,
       "value": "\"Curl biceps\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 10042,
+      "offset": 10274,
       "length": 38,
       "value": "\"1 répétition = 1 droite + 1 gauche\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "StringLiteral",
-      "offset": 10150,
+      "offset": 10382,
       "length": 5,
       "value": "\"9×\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10185,
+      "offset": 10417,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10234,
+      "offset": 10466,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10286,
+      "offset": 10518,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKitWatch\/TrainingKitWatch\/Views\/GoModeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10674,
+      "offset": 10906,
       "length": 5,
       "value": "false"
     },
