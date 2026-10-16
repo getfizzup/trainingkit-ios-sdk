@@ -128,6 +128,7 @@ extension TrainingKit::StreamingWorkoutController : TrainingKit::RemoteManagerDe
   @_documentation(visibility: internal) @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_documentation(visibility: internal) @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift::Bool)
   @_documentation(visibility: internal) @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
+  @_documentation(visibility: internal) @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewDidLayoutSubviews()
   @_documentation(visibility: internal) @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift::Bool)
   @_documentation(visibility: internal) @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation::CGSize, with coordinator: any UIKit::UIViewControllerTransitionCoordinator)
   @_Concurrency::MainActor @preconcurrency open func shouldDisplayCloseButton() -> Swift::Bool

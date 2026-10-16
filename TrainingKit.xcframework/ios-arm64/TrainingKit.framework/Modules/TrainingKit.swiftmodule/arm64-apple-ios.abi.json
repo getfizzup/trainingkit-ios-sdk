@@ -3548,6 +3548,35 @@
           },
           {
             "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrainingKit@objc(cs)ClassicWorkoutController(im)viewDidLayoutSubviews",
+            "mangledName": "$s11TrainingKit24ClassicWorkoutControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "TrainingKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "Documentation"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "viewWillDisappear",
             "printedName": "viewWillDisappear(_:)",
             "children": [
@@ -31695,84 +31724,77 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/BlurredNavigationController.swift",
       "kind": "FloatLiteral",
-      "offset": 667,
+      "offset": 613,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "FloatLiteral",
-      "offset": 1149,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1512,
+      "offset": 1460,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1632,
+      "offset": 1580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "Dictionary",
-      "offset": 3092,
+      "offset": 3040,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "StringLiteral",
-      "offset": 14330,
+      "offset": 14619,
       "length": 18,
       "value": "\"SlideAnimationAE\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "StringLiteral",
-      "offset": 14358,
+      "offset": 14647,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "StringLiteral",
-      "offset": 14883,
+      "offset": 15172,
       "length": 25,
       "value": "\"wk_action_slide_workout\""
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14978,
+      "offset": 15267,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15589,
+      "offset": 15878,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "FloatLiteral",
-      "offset": 22353,
+      "offset": 22642,
       "length": 5,
       "value": "0.500"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/ClassicWorkoutController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23500,
+      "offset": 23789,
       "length": 4,
       "value": "true"
     },
@@ -32276,112 +32298,112 @@
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "FloatLiteral",
-      "offset": 4514,
+      "offset": 4460,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "FloatLiteral",
-      "offset": 4771,
+      "offset": 4885,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "FloatLiteral",
-      "offset": 4817,
+      "offset": 4931,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "FloatLiteral",
-      "offset": 5062,
+      "offset": 5176,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5393,
+      "offset": 5507,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5439,
+      "offset": 5553,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5493,
+      "offset": 5607,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5528,
+      "offset": 5642,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5706,
+      "offset": 5820,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5887,
+      "offset": 6001,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6066,
+      "offset": 6180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6139,
+      "offset": 6253,
       "length": 3,
       "value": "998"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30595,
+      "offset": 30709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33672,
+      "offset": 33786,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33700,
+      "offset": 33814,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/PromptController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36709,
+      "offset": 36823,
       "length": 1,
       "value": "0"
     },

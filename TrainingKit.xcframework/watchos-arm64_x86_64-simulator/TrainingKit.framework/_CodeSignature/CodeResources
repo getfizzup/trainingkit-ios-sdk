@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h0NgUcE3n7bAbL/PiKOm+iYMktU=
+		g5832vvk/r7qzUq22m5/cdxTxWc=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		UGZwyOAH3nm6s2iNhYbTaFmjcMs=
+		pCOw1EctmrLNsYOGcIXK/vfgjgY=
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		lTPBE+EIgbcP8e8Q7T+Hel9X6i8=
+		zkaY1xEolWk6eLIxE5QB7OglIuw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9Vnxb4o5m1ZAEtXW4tN2KmUyXSmeLXIKtyvlW9U3vI=
+			cv0/ZCIXsm0WyDdh3PO8gwY7aO1atsp2HCJqv8lrwIg=
 			</data>
 		</dict>
 		<key>Modules/TrainingKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
@@ -261,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KsQcIGIlb3DtiNPumc4IxdqMfsKQsSmk+w40IHJy0dQ=
+			z8d4Z7yzdYUgE9155tHES6TqXZPLHp2BYa0irsi7EF0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

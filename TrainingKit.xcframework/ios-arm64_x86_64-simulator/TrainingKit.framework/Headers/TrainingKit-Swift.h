@@ -404,6 +404,7 @@ SWIFT_CLASS("_TtC11TrainingKit24ClassicWorkoutController") SWIFT_AVAILABILITY(io
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillLayoutSubviews;
+- (void)viewDidLayoutSubviews;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
@@ -1023,6 +1024,7 @@ SWIFT_CLASS("_TtC11TrainingKit24ClassicWorkoutController") SWIFT_AVAILABILITY(io
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillLayoutSubviews;
+- (void)viewDidLayoutSubviews;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;

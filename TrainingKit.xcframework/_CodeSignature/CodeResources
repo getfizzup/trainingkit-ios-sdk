@@ -30,19 +30,19 @@
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Headers/TrainingKit-Swift.h</key>
 		<data>
-		YeZ+FEx+YKn3NevHOokVptHYyu4=
+		+e9OtjJNafRBsrJhJKSd/MViQJM=
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Info.plist</key>
 		<data>
-		lz5tCoOZsyYzlUkSeZy6UrkuR+A=
+		PLfOmcb4mrCYDynQXsCAgeqcPJ8=
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		3ctRb2fZNp25YvNtEZnXIOv1mP8=
+		VdfnyqK5sVNEnaQFhOlN7AUY7co=
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JcijwsdHjunCCpoOY0FpZJXAFvg=
+		m7y7BU5i5KmcNnih+HctoaJoxB4=
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JcijwsdHjunCCpoOY0FpZJXAFvg=
+		m7y7BU5i5KmcNnih+HctoaJoxB4=
 		</data>
 		<key>ios-arm64/TrainingKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>ios-arm64/TrainingKit.framework/TrainingKit</key>
 		<data>
-		LlE/U9PqcJQz90bwJ7OYVQGU14g=
+		RVEPYWJtCyQBkkw3VqW7Nk9ECIU=
 		</data>
 		<key>ios-arm64/TrainingKit.framework/VocalAnimation.json</key>
 		<data>
@@ -474,7 +474,7 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Assets.car</key>
 		<data>
-		/V3IBK3VeX9ltXAoSphjkJMozc4=
+		94lh/XZ9p2END6ed1Hg7ddR6bt8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/BebasNeue.otf</key>
 		<data>
@@ -498,19 +498,19 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Headers/TrainingKit-Swift.h</key>
 		<data>
-		cKOWXcfz6z8Fuc3B8IuJSA81uPg=
+		3MjpC5vrkF8CuJ65PsofaHbCwe8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Info.plist</key>
 		<data>
-		JtAEPzORhI9ELzRnkO527nwxbew=
+		T4KiqkvLqvm2rPlfjD0SH9uc+WI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oh+A/AAFrJ1oMde2HjRCt89TGTs=
+		jpC1LeRDXDwGkiXO1t0USfnSsKE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		raOL/IrmTQJfxEF7RyaIElypxQk=
+		ZY9+ezth9iVa2/ZHlQ6Jgj4hgR4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -518,15 +518,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		raOL/IrmTQJfxEF7RyaIElypxQk=
+		ZY9+ezth9iVa2/ZHlQ6Jgj4hgR4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oh+A/AAFrJ1oMde2HjRCt89TGTs=
+		jpC1LeRDXDwGkiXO1t0USfnSsKE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		snceFh2Gaaah7jy8mxY94Sl5TIQ=
+		9aAedSGHAwR7DOB6sXiQAToVpdc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -534,7 +534,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		snceFh2Gaaah7jy8mxY94Sl5TIQ=
+		9aAedSGHAwR7DOB6sXiQAToVpdc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -546,7 +546,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/TrainingKit</key>
 		<data>
-		A+WNbB3VQkJP9hKlPV3/bSJ2TMs=
+		K6W9lWpgatRdVC8kkP/f4259Gaw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/VocalAnimation.json</key>
 		<data>
@@ -554,7 +554,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		HjwEihyIaUEGHptuyNig0sbukhQ=
+		8Mp3ZbQZBCB9PbPiBinGOsUvsbE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/da.lproj/TrainingKitWatch.strings</key>
 		<dict>
@@ -970,7 +970,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32/TrainingKit.framework/Info.plist</key>
 		<data>
-		X5txJngJ+LHntWSr6VoZfct/KLU=
+		1sf9Gyc6HzIDLf4k9Yx/pY0rruo=
 		</data>
 		<key>watchos-arm64_arm64_32/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
@@ -1139,7 +1139,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/Info.plist</key>
 		<data>
-		h0NgUcE3n7bAbL/PiKOm+iYMktU=
+		g5832vvk/r7qzUq22m5/cdxTxWc=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -1179,11 +1179,11 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/TrainingKit</key>
 		<data>
-		O22OwfGqiiB7i+LCdWW4XO72TKQ=
+		dle1bpvhkWaRgwCAvBJ5k0B4aw4=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		86rY4oP9sRaMjikAJnm1afuGOJ0=
+		XqC+6olJKE4pgP9EcYK6zKOj25E=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/da.lproj/TrainingKitWatch.strings</key>
 		<dict>
@@ -1351,28 +1351,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8fU9D8HAuKw+avocc+OSljHx/2TYCbI8c7JkVPrhiRE=
+			XoSc6xjZ0BfbNUyiow47PSo0ySWjJNCqzd0KIJEz6HU=
 			</data>
 		</dict>
 		<key>ios-arm64/TrainingKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHgJtGjl1oiuydkeCX/iAYnG2Fk/merWtYIJTa4P7lQ=
+			tHs5oHx4bmnPzFQlN/iUIRkk8t+PtUSN1IrITyvshl8=
 			</data>
 		</dict>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			if2NYU5IP7Kl7DG8/GhXmIuLGqk1P5xpwcka1Yt/gRU=
+			9Y4Qf9sY4hBRhNZ5r9AlmBaAJJrEFoPBt6vlI9H2vxs=
 			</data>
 		</dict>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1hUGRl8Sj7Y6/4mc8vtBczQcCuqy+wc7KHsJje/ato8=
+			uGG8SI0W37sfrhDcU+EpdI0GWBNBB9IuS0/F09+HqNA=
 			</data>
 		</dict>
 		<key>ios-arm64/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1386,7 +1386,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1hUGRl8Sj7Y6/4mc8vtBczQcCuqy+wc7KHsJje/ato8=
+			uGG8SI0W37sfrhDcU+EpdI0GWBNBB9IuS0/F09+HqNA=
 			</data>
 		</dict>
 		<key>ios-arm64/TrainingKit.framework/Modules/module.modulemap</key>
@@ -1407,7 +1407,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VolzzXz9xlBiEQUrqrJl7mfDmkL7xcNO+768DzxKhUs=
+			dBWGDtqg//4gcNwFomL1zbFHKN+E7TA4bjdVHjMQRoQ=
 			</data>
 		</dict>
 		<key>ios-arm64/TrainingKit.framework/VocalAnimation.json</key>
@@ -1858,7 +1858,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fzyCBNJ3ab+BGwAT7ozVK69q8KS9Vm7OFNw2s1sOS8=
+			hCamqZT5T0ewTK8bJCvPYAejGrci5d0GiltU/eK481k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/BebasNeue.otf</key>
@@ -1900,28 +1900,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/1iTCl2ZIzv+eAp74DmQH0RP/g7myOWRUdJHl43/5Q=
+			/C3TlZGvQDRjV8ZiLPy07vo5lU7kQnHcp7sH0o9+U+Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UsW7UtAslM7vctVrDf13sVUl2tS+5dM1YniQIa3deQQ=
+			72Knr5bjoViwdUieO0swfcOQMv/D0JEzYVETMpUKTsw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cZaWEqJHfcHD4ThNoK4JHeI9mtCfX/KupBy/BkWZxs=
+			RdnSW/AEjD6G7L4UfLbnGyx409ECCbfeCyXBzBlcaRg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uPdQ7zFjQhdMUi/cRby/a3yTpRUGOc9yZQjkGtnAqsY=
+			mMoOZ3Oygsu5IEGvnnjO9hJYoJGvox6z8/ADYvsQu54=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1935,21 +1935,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uPdQ7zFjQhdMUi/cRby/a3yTpRUGOc9yZQjkGtnAqsY=
+			mMoOZ3Oygsu5IEGvnnjO9hJYoJGvox6z8/ADYvsQu54=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cZaWEqJHfcHD4ThNoK4JHeI9mtCfX/KupBy/BkWZxs=
+			RdnSW/AEjD6G7L4UfLbnGyx409ECCbfeCyXBzBlcaRg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvIaGIUOgLUL5yEdQQZgP/cj/dMgMgVB5dJLZ/h9lNY=
+			OziUByD2yx0xDsESNQgDmeztG0GFj4dacJixNB/3SGw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1963,7 +1963,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvIaGIUOgLUL5yEdQQZgP/cj/dMgMgVB5dJLZ/h9lNY=
+			OziUByD2yx0xDsESNQgDmeztG0GFj4dacJixNB/3SGw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/Modules/module.modulemap</key>
@@ -1984,7 +1984,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WbpXXzHu94sjBte1bEinYOKju9A5jJlUL4lFSi77L6w=
+			O+dlq+ZelJi+K4eEtpejVdQo1yeDwbUIANRbxQiCex4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/VocalAnimation.json</key>
@@ -1998,7 +1998,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJub4sriaIV5CxpNN327izFI/vAhUqNkXRfTyZDIUvo=
+			XX/+owLV82dcizPwea53+GCv36RP8Sc8bp33qpLqmZc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TrainingKit.framework/da.lproj/TrainingKitWatch.strings</key>
@@ -2456,7 +2456,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqWD6C0wz4Vu0K0HFV0X5UcNVPva4YFAPgv/mhgf5UA=
+			PEChShdiIRcvBMAMXpbgRlXqT/GJCUT0JUFbPTrYQBM=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-watchos.abi.json</key>
@@ -2664,7 +2664,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xhngqway3uv7iMXdfejiSGU9aQHwIVt3W9iAI4frpy4=
+			JC2JuE2aS3PqhYFIMYlhjkDdDT0pUK/BD6VurgBmvbw=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/Modules/TrainingKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
@@ -2734,14 +2734,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOuiEqVLqiTqGzpgEfBJo7jmayVKSLXvb7aeE9ZcHtE=
+			YlACe2Om9EVR9m3TDYU+u0mQ+G14cVKEl/m/tcuA/k0=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CICCBuTKasK3edLVWm/FMU5rOUX1rJYnQHWctRkoKwk=
+			2w/zw6dNHHCs1FrdxVzaTMONDOfIBWuIx5OwWMGid5E=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/TrainingKit.framework/da.lproj/TrainingKitWatch.strings</key>
