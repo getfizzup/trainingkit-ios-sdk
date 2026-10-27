@@ -80,6 +80,14 @@ extension TrainingKit::ExerciseType : Swift::Codable {
     get
   }
 }
+public struct WorkoutHeartRate : Swift::Codable, Swift::Equatable, Swift::Sendable {
+  public let date: Foundation::Date
+  public let beatsPerMinute: Swift::Double
+  public init(date: Foundation::Date, beatsPerMinute: Swift::Double)
+  public static func == (a: TrainingKit::WorkoutHeartRate, b: TrainingKit::WorkoutHeartRate) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
 @available(iOS 15.0, watchOS 8.0, *)
 public struct ChronoState {
   public var value: Swift::Double

@@ -11622,6 +11622,121 @@
           },
           {
             "kind": "Var",
+            "name": "heartRates",
+            "printedName": "heartRates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TrainingKit.WorkoutHeartRate]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutHeartRate",
+                    "printedName": "TrainingKit.WorkoutHeartRate",
+                    "usr": "s:11TrainingKit16WorkoutHeartRateV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvp",
+            "mangledName": "$s11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvp",
+            "moduleName": "TrainingKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TrainingKit.WorkoutHeartRate]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutHeartRate",
+                        "printedName": "TrainingKit.WorkoutHeartRate",
+                        "usr": "s:11TrainingKit16WorkoutHeartRateV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvg",
+                "mangledName": "$s11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvg",
+                "moduleName": "TrainingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TrainingKit.WorkoutHeartRate]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutHeartRate",
+                        "printedName": "TrainingKit.WorkoutHeartRate",
+                        "usr": "s:11TrainingKit16WorkoutHeartRateV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvs",
+                "mangledName": "$s11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvs",
+                "moduleName": "TrainingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvM",
+                "mangledName": "$s11TrainingKit16SaveWorkoutStateV10heartRatesSayAA0D9HeartRateVGvM",
+                "moduleName": "TrainingKit",
+                "implicit": true,
+                "intro_iOS": "15.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "filteredBlocks",
             "printedName": "filteredBlocks",
             "children": [
@@ -18385,6 +18500,288 @@
         "moduleName": "TrainingKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkoutHeartRate",
+        "printedName": "WorkoutHeartRate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrainingKit16WorkoutHeartRateV4date10Foundation4DateVvp",
+            "mangledName": "$s11TrainingKit16WorkoutHeartRateV4date10Foundation4DateVvp",
+            "moduleName": "TrainingKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrainingKit16WorkoutHeartRateV4date10Foundation4DateVvg",
+                "mangledName": "$s11TrainingKit16WorkoutHeartRateV4date10Foundation4DateVvg",
+                "moduleName": "TrainingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beatsPerMinute",
+            "printedName": "beatsPerMinute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TrainingKit16WorkoutHeartRateV14beatsPerMinuteSdvp",
+            "mangledName": "$s11TrainingKit16WorkoutHeartRateV14beatsPerMinuteSdvp",
+            "moduleName": "TrainingKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TrainingKit16WorkoutHeartRateV14beatsPerMinuteSdvg",
+                "mangledName": "$s11TrainingKit16WorkoutHeartRateV14beatsPerMinuteSdvg",
+                "moduleName": "TrainingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:beatsPerMinute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutHeartRate",
+                "printedName": "TrainingKit.WorkoutHeartRate",
+                "usr": "s:11TrainingKit16WorkoutHeartRateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrainingKit16WorkoutHeartRateV4date14beatsPerMinuteAC10Foundation4DateV_Sdtcfc",
+            "mangledName": "$s11TrainingKit16WorkoutHeartRateV4date14beatsPerMinuteAC10Foundation4DateV_Sdtcfc",
+            "moduleName": "TrainingKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutHeartRate",
+                "printedName": "TrainingKit.WorkoutHeartRate",
+                "usr": "s:11TrainingKit16WorkoutHeartRateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TrainingKit16WorkoutHeartRateV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11TrainingKit16WorkoutHeartRateV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TrainingKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit16WorkoutHeartRateV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11TrainingKit16WorkoutHeartRateV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TrainingKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutHeartRate",
+                "printedName": "TrainingKit.WorkoutHeartRate",
+                "usr": "s:11TrainingKit16WorkoutHeartRateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutHeartRate",
+                "printedName": "TrainingKit.WorkoutHeartRate",
+                "usr": "s:11TrainingKit16WorkoutHeartRateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TrainingKit16WorkoutHeartRateV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TrainingKit16WorkoutHeartRateV2eeoiySbAC_ACtFZ",
+            "moduleName": "TrainingKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TrainingKit16WorkoutHeartRateV",
+        "mangledName": "$s11TrainingKit16WorkoutHeartRateV",
+        "moduleName": "TrainingKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
         ]
       },
       {
@@ -31708,6 +32105,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Communication\/SessionGateway.swift",
+      "kind": "Array",
+      "offset": 1141,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/Controllers\/Extensions\/ClassicWorkoutController+StoreSubscriber.swift",
       "kind": "BooleanLiteral",
       "offset": 9476,
@@ -35597,6 +36001,13 @@
       "kind": "Dictionary",
       "offset": 4349,
       "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/benoit\/Developer\/workoutkit-ios\/TrainingKit\/TrainingKit\/TrainingKit\/State\/SaveWorkoutState.swift",
+      "kind": "Array",
+      "offset": 4589,
+      "length": 2,
       "value": "[]"
     },
     {
